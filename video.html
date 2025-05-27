@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Yeah1</title>
+    <link rel="stylesheet" href="video-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <button class="back-btn" onclick="goBack()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Quay lại
+                </button>
+            </div>
+            <div class="logo">
+                <img src="./asset/yeah1news-logo.png" alt="Yeah1 Logo" />
+            </div>
+            <div class="header-right"></div>
+        </div>
+    </header>
+
+    <!-- Video Content -->
+    <main class="video-main">
+        <div class="container">
+            <div class="video-layout">
+                <!-- Left Column - Main Video -->
+                <div class="video-primary">
+                    <div class="video-player">
+                        <div class="video-placeholder" id="video-container">
+
+                            <div class="video-player-wrapper">
+                                <iframe id="videoPlayer" src="" width="100%" height="450" frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="video-info">
+                        <h1 class="video-title" id="videoTitle">Hướng dẫn thiết kế Logo chuyên nghiệp</h1>
+                        <div class="video-meta">
+                            <div class="video-stats">
+                                <span class="view-count" id="viewCount">1.2K lượt xem</span>
+                                <span class="upload-date" id="uploadDate">2 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="video-author">
+                            <div class="author-avatar">
+                                <img src="/placeholder.svg?height=48&width=48" alt="Author" />
+                            </div>
+                            <div class="author-info">
+                                <h3 class="author-name" id="authorName">Nguyễn Thị Quỳnh Giao</h3>
+                                <p class="author-title">Chuyên gia thiết kế</p>
+                            </div>
+                        </div>
+
+                        <div class="video-description">
+                            <h3>Mô tả</h3>
+                            <div class="description-content" id="videoDescription">
+                                <p>Trong video này, chúng ta sẽ học cách thiết kế một logo chuyên nghiệp từ A đến Z.
+                                    Video bao gồm:</p>
+                                <ul>
+                                    <li>Nghiên cứu và phân tích thương hiệu</li>
+                                    <li>Tạo ý tưởng và sketch ban đầu</li>
+                                    <li>Sử dụng Adobe Illustrator để thiết kế</li>
+                                    <li>Lựa chọn màu sắc và typography phù hợp</li>
+                                    <li>Hoàn thiện và xuất file cuối cùng</li>
+                                </ul>
+                                <p>Đây là một hướng dẫn chi tiết dành cho cả người mới bắt đầu và những ai muốn nâng cao
+                                    kỹ năng thiết kế logo của mình.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Related Videos -->
+                <div class="video-sidebar">
+                    <h2 class="sidebar-title">Video khác</h2>
+                    <div class="related-videos-list">
+                        <div class="related-video-item" onclick="loadVideo('video2')">
+                            <div class="related-thumbnail">
+                                <img src="https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg" alt="Video 2" />
+                                <div class="related-play-button">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                                <span class="related-duration">10:45</span>
+                            </div>
+                            <div class="related-info">
+                                <h3 class="related-title">Chiến lược Content Marketing hiệu quả</h3>
+                                <p class="related-author">Đặng Thuỳ Ngân</p>
+                                <p class="related-views">856 lượt xem • 5 ngày trước</p>
+                            </div>
+                        </div>
+
+                        <div class="related-video-item" onclick="loadVideo('video3')">
+                            <div class="related-thumbnail">
+                                <img src="/placeholder.svg?height=94&width=168" alt="Video 3" />
+                                <div class="related-play-button">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                                <span class="related-duration">08:20</span>
+                            </div>
+                            <div class="related-info">
+                                <h3 class="related-title">Cách tạo hiệu ứng động trong thiết kế</h3>
+                                <p class="related-author">Nguyễn Thị Quỳnh Giao</p>
+                                <p class="related-views">2.1K lượt xem • 1 tuần trước</p>
+                            </div>
+                        </div>
+
+                        <div class="related-video-item" onclick="loadVideo('video4')">
+                            <div class="related-thumbnail">
+                                <img src="/placeholder.svg?height=94&width=168" alt="Video 4" />
+                                <div class="related-play-button">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                                <span class="related-duration">15:30</span>
+                            </div>
+                            <div class="related-info">
+                                <h3 class="related-title">Xây dựng thương hiệu cá nhân</h3>
+                                <p class="related-author">Đặng Thuỳ Ngân</p>
+                                <p class="related-views">3.4K lượt xem • 2 tuần trước</p>
+                            </div>
+                        </div>
+
+                        <div class="related-video-item" onclick="loadVideo('video1')">
+                            <div class="related-thumbnail">
+                                <img src="https://img.youtube.com/vi/F94tzv9xD7Q/maxresdefault.jpg" alt="Video 1" />
+                                <div class="related-play-button">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                        <path d="M8 5v14l11-7z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                                <span class="related-duration">12:34</span>
+                            </div>
+                            <div class="related-info">
+                                <h3 class="related-title">Hướng dẫn thiết kế Logo chuyên nghiệp</h3>
+                                <p class="related-author">Nguyễn Thị Quỳnh Giao</p>
+                                <p class="related-views">1.2K lượt xem • 2 ngày trước</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="video-script.js"></script>
+</body>
+
+</html>

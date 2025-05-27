@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết - Yeah1</title>
+    <link rel="stylesheet" href="article-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <button class="back-btn" onclick="goBack()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Quay lại
+                </button>
+            </div>
+            <div class="logo">
+                <img src="./asset/yeah1news-logo.png" alt="Yeah1 Logo" />
+            </div>
+            <div class="header-right"></div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="article-main">
+        <div class="container">
+            <article class="article">
+                <div class="article-image">
+                    <img src="" alt="Article Image" id="articleImage" />
+                </div>
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category">Thiết kế</span>
+                        <time class="article-date">15 tháng 1, 2024</time>
+                    </div>
+                    <h1 class="article-title" id="articleTitle">Xu hướng thiết kế đồ họa 2024</h1>
+
+                </header>
+
+
+
+                <div class="article-content" id="articleContent">
+                    <p class="lead">Năm 2024 đánh dấu một bước ngoặt quan trọng trong ngành thiết kế đồ họa với sự xuất
+                        hiện của nhiều xu hướng mới đầy sáng tạo và ấn tượng.</p>
+
+                    <h2>1. Thiết kế tối giản với điểm nhấn màu sắc</h2>
+                    <p>Xu hướng minimalism tiếp tục thống trị trong năm 2024, nhưng với một twist mới: việc sử dụng
+                        những điểm nhấn màu sắc táo bạo để tạo ra sự tương phản và thu hút sự chú ý.</p>
+
+                    <h2>2. Typography thử nghiệm</h2>
+                    <p>Các nhà thiết kế đang khám phá những cách thức mới để sử dụng typography, từ việc kết hợp nhiều
+                        font chữ khác nhau đến việc tạo ra những hiệu ứng 3D ấn tượng.</p>
+
+                    <h2>3. Gradient và hiệu ứng holographic</h2>
+                    <p>Gradient không còn đơn thuần là sự chuyển đổi giữa hai màu. Năm 2024 chứng kiến sự phát triển của
+                        những gradient phức tạp với hiệu ứng holographic tạo ra cảm giác chiều sâu và hiện đại.</p>
+
+                    <h2>4. Thiết kế bền vững</h2>
+                    <p>Ý thức về môi trường ngày càng ảnh hưởng đến thiết kế đồ họa. Các nhà thiết kế đang tìm cách tạo
+                        ra những sản phẩm không chỉ đẹp mắt mà còn thân thiện với môi trường.</p>
+
+                    <h2>Kết luận</h2>
+                    <p>Những xu hướng thiết kế năm 2024 phản ánh sự cân bằng giữa tính thẩm mỹ và chức năng, giữa sự
+                        sáng tạo và tính bền vững. Để thành công trong lĩnh vực thiết kế, chúng ta cần không ngừng học
+                        hỏi và thích ứng với những thay đổi này.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <section class="related-articles">
+        <div class="container">
+            <h2 class="section-title">Bài viết khác</h2>
+            <div class="articles-grid">
+                <article class="article-card" onclick="loadArticle('article2')">
+                    <div class="article-image">
+                        <img src="/placeholder.svg?height=150&width=250" alt="Article 2" />
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Marketing</span>
+                        <h3 class="article-title">Chiến lược Marketing số hiệu quả</h3>
+                        <p class="article-excerpt">Hướng dẫn xây dựng chiến lược marketing số cho doanh nghiệp nhỏ...
+                        </p>
+                        <div class="article-meta">
+                            <span class="article-author">Đặng Thuỳ Ngân</span>
+                            <span class="article-date">12/01/2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" onclick="loadArticle('article3')">
+                    <div class="article-image">
+                        <img src="/placeholder.svg?height=150&width=250" alt="Article 3" />
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Truyền thông</span>
+                        <h3 class="article-title">Nghệ thuật kể chuyện trong PR</h3>
+                        <p class="article-excerpt">Cách sử dụng storytelling để tạo ra những chiến dịch PR ấn tượng...
+                        </p>
+                        <div class="article-meta">
+                            <span class="article-author">Nguyễn Thị Quỳnh Giao</span>
+                            <span class="article-date">10/01/2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" onclick="loadArticle('article4')">
+                    <div class="article-image">
+                        <img src="/placeholder.svg?height=150&width=250" alt="Article 4" />
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Social Media</span>
+                        <h3 class="article-title">Tối ưu hóa nội dung Social Media</h3>
+                        <p class="article-excerpt">Bí quyết tạo nội dung hấp dẫn và tăng tương tác trên mạng xã hội...
+                        </p>
+                        <div class="article-meta">
+                            <span class="article-author">Đặng Thuỳ Ngân</span>
+                            <span class="article-date">08/01/2024</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <script src="article-script.js"></script>
+</body>
+
+</html>
