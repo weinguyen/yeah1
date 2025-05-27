@@ -42,10 +42,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 24px;
-  transform: scale(1.2);
 }
 
-/* Header */
 .header {
   position: fixed;
   top: 0;
