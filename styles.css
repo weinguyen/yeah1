@@ -348,54 +348,61 @@ body {
 }
 
 /* Students Section */
-.students {
-  padding: 120px 0;
-  background: var(--gray-100);
-}
-
 .students-container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  transform: scale(0.8);
-  gap: 0;
-}
-
-.student-row {
-  display: grid;
-  grid-template-columns: 300px 1fr;
+  justify-content: space-around;
+  align-items: stretch;
   gap: 60px;
-  align-items: center;
-  padding: 60px 0;
-  min-height: 400px;
+  padding: 60px 40px;
 }
 
-.student-reverse {
-  grid-template-columns: 1fr 300px;
+.student-card {
+  z-index: 5;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(113, 0, 209, 0.15);
+}
+
+.student-left {
+  margin-left: -150px;
+}
+
+.student-right {
+  margin-right: -150px;
+  flex-direction: row-reverse;
   text-align: right;
+  /* Avatar bên phải, thông tin bên trái */
 }
 
 .student-avatar {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: var(--shadow-xl);
-  border: 6px solid var(--primary-purple);
-  transition: var(--transition);
-  justify-self: center;
-}
-
-.student-reverse .student-avatar {
-  justify-self: center;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 6px solid #7100D1;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
 .student-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: var(--transition);
+  transition: all 0.3s ease;
 }
 
 .student-avatar:hover {
@@ -403,52 +410,126 @@ body {
   box-shadow: 0 20px 40px rgba(113, 0, 209, 0.3);
 }
 
-
 .student-info {
+  flex: 1;
   padding: 20px 0;
-
-}
-
-.student-reverse .student-info {
-  text-align: right;
 }
 
 .student-name {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
-  color: var(--gray-900);
+  color: #111;
   margin-bottom: 12px;
   letter-spacing: -0.5px;
 }
 
 .student-nickname {
-  font-size: 20px;
-  color: var(--primary-purple);
+  font-size: 18px;
+  color: #7100D1;
   font-weight: 500;
   margin-bottom: 8px;
 }
 
 .student-id {
-  font-size: 18px;
-  color: var(--gray-600);
-  margin-bottom: 24px;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
   font-weight: 500;
 }
 
 .student-description {
-  font-size: 18px;
-  color: var(--gray-700);
+  font-size: 16px;
+  color: #444;
   line-height: 1.7;
-
 }
 
 .student-description p {
   margin: 0;
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  .students-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .student-card {
+    width: 100%;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .student-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .student-name {
+    font-size: 24px;
+  }
+
+  .student-left,
+  .student-right {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .students-container {
+    gap: 18px;
+    padding: 15px 3vw;
+  }
+
+  .student-card {
+    width: 100%;
+    padding: 18px 6px;
+    gap: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(113, 0, 209, 0.07), 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+
+  .student-avatar {
+    width: 90px;
+    height: 90px;
+    border-width: 3px;
+  }
+
+  .student-info {
+    padding: 10px 0 0 0;
+  }
+
+  .student-name {
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+
+  .student-nickname {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+
+  .student-id {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+
+  .student-description {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
+
+
+
 .articles {
   padding: 40px 0;
-  background: linear-gradient(180deg, var(--white) 0%, #f8f4ff 50%, #e6d9ff 100%);
+  background: linear-gradient(180deg, var(--white) 0%, #f8f4ff 50%, #b491fc 100%);
   position: relative;
 }
 
@@ -649,7 +730,7 @@ body {
 /* Videos Section */
 .videos {
   padding: 120px 0;
-  background: linear-gradient(180deg, #0e0e0e 0%, #121212 50%, #0e0e0e 100%);
+  background: linear-gradient(180deg, #a980fa 0%, #231245 50%, #0e0e0e 100%);
   position: relative;
 }
 
