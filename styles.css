@@ -37,9 +37,11 @@ body {
   background: var(--white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .container {
+  transform: scale(1.2);
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
@@ -405,6 +407,7 @@ body {
 
 .student-info {
   padding: 20px 0;
+
 }
 
 .student-reverse .student-info {
@@ -437,13 +440,13 @@ body {
   font-size: 18px;
   color: var(--gray-700);
   line-height: 1.7;
+
 }
 
 .student-description p {
   margin: 0;
 }
 
-/* Articles Section */
 .articles {
   padding: 120px 0;
   background: linear-gradient(180deg, var(--white) 0%, #f8f4ff 50%, #e6d9ff 100%);
