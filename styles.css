@@ -205,7 +205,7 @@ body {
 .hero-content {
 
   position: relative;
-  z-index: 1;
+  z-index: 10;
   max-width: 850px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.70);
@@ -215,7 +215,7 @@ body {
   backdrop-filter: blur(7px);
   border: 1px solid rgba(113, 0, 209, 0.07);
   margin-bottom: -150px;
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
 
 .hero-title {
@@ -359,7 +359,7 @@ body {
 }
 
 .student-card {
-  z-index: 5;
+  z-index: 9;
   width: 700px;
   display: flex;
   align-items: center;
@@ -451,6 +451,7 @@ body {
 @media (max-width: 768px) {
   .students-container {
     flex-direction: column;
+    transform: scale(0.7);
     gap: 30px;
     padding: 40px 20px;
   }
