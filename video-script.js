@@ -1,22 +1,34 @@
 // Video data
 const videos = {
   video1: {
-    title: "Hướng dẫn thiết kế Logo chuyên nghiệp",
-    author: "Nguyễn Thị Quỳnh Giao",
-    views: "1.2K lượt xem",
-    uploadDate: "2 ngày trước",
-    thumbnail: "/placeholder.svg?height=450&width=800",
-    videoUrl: "https://www.youtube.com/embed/herFvStaH5o",
+    title: "Ca sĩ Miho Chu và diễn viên Thanh Thanh nhắn gửi khán giả trước họp báo ra mắt MV “Playlist” | Sao Chat ",
+    thumbnail: "./asset/video/1/thumbnails.jpg",
+    videoUrl: "https://drive.google.com/file/d/1Wo4CZHBFCoujl39qf5X1uxkkhMvzy9bD/preview",
     description: `
-            <p>Trong video này, chúng ta sẽ học cách thiết kế một logo chuyên nghiệp từ A đến Z. Video bao gồm:</p>
+            <p>Xem Full Series  <a
+                                href="https://www.youtube.com/watch?v=VnO2deiIy_0&list=PL9L3yQBtrCxu_mJgwWIpslnzm9F_srXn_&index=7">SAO CHAT, CHAT SAO</a></p>
             <ul>
-                <li>Nghiên cứu và phân tích thương hiệu</li>
-                <li>Tạo ý tưởng và sketch ban đầu</li>
-                <li>Sử dụng Adobe Illustrator để thiết kế</li>
-                <li>Lựa chọn màu sắc và typography phù hợp</li>
-                <li>Hoàn thiện và xuất file cuối cùng</li>
+                <li>Ca sĩ Miho Chu và diễn viên Thanh Thanh nhắn gửi khán giả trước họp báo ra mắt MV “Playlist”</li>
+                <li>Mini Series: Sao Chat, Chat Sao</li>
+                <li>Khách Mời: ca sĩ Chu Minh Hoàng (Miho Chu), diễn viên Trần Thị Thanh Thanh</li>
+                <li>Sao Chat, Chat Sao là chương trình mang đến người xem những nội dung phỏng vấn, hỏi - đáp ấn tượng, sâu sắc và nhiều cảm xúc, cũng như là những câu chuyện lần đầu được tiết lộ từ những nghệ sĩ, người nổi tiếng. </li>
+          
             </ul>
-            <p>Đây là một hướng dẫn chi tiết dành cho cả người mới bắt đầu và những ai muốn nâng cao kỹ năng thiết kế logo của mình.</p>
+            <p>#YeaH1 #YeaH1Channel #SaoChatChatSao #miniseries #MV_Playlist</p>
+
+              <div class="highlight-section">
+    <h4>🎬 Vai trò sản xuất</h4>
+    <ul>
+      <li><strong>Đạo diễn:</strong> ABC</li>
+      <li><strong>Biên kịch:</strong> ABC</li>
+      <li><strong>Quay phim:</strong> ABC</li>
+      <li><strong>Dựng phim:</strong> ABC</li>
+      <li><strong>Âm nhạc:</strong> ABC</li>
+      <li><strong>Diễn viên:</strong> Trần Thị Thanh Thanh, Chu Minh Hoàng (Miho Chu)</li>
+    </ul>
+  </div>
+
+
         `,
   },
   video2: {
@@ -24,7 +36,7 @@ const videos = {
     author: "Đặng Thuỳ Ngân",
     views: "856 lượt xem",
     uploadDate: "5 ngày trước",
-    thumbnail: "/placeholder.svg?height=450&width=800",
+    thumbnail: "https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg",
     videoUrl: "https://www.youtube.com/embed/tTFLMUVXGmo",
     description: `
             <p>Video hướng dẫn xây dựng chiến lược content marketing từ cơ bản đến nâng cao:</p>
@@ -37,40 +49,7 @@ const videos = {
             <p>Học cách tạo ra những nội dung có giá trị, thu hút và chuyển đổi khách hàng hiệu quả.</p>
         `,
   },
-  video3: {
-    title: "Cách tạo hiệu ứng động trong thiết kế",
-    author: "Nguyễn Thị Quỳnh Giao",
-    views: "2.1K lượt xem",
-    uploadDate: "1 tuần trước",
-    thumbnail: "/placeholder.svg?height=450&width=800",
-    description: `
-            <p>Khám phá thế giới animation trong thiết kế đồ họa:</p>
-            <ul>
-                <li>Nguyên lý cơ bản của animation</li>
-                <li>Sử dụng After Effects cho motion graphics</li>
-                <li>Tạo hiệu ứng chuyển động cho logo</li>
-                <li>Animation cho web và mobile</li>
-            </ul>
-            <p>Từ những hiệu ứng đơn giản đến những animation phức tạp, video này sẽ giúp bạn nắm vững kỹ năng tạo chuyển động.</p>
-        `,
-  },
-  video4: {
-    title: "Xây dựng thương hiệu cá nhân",
-    author: "Đặng Thuỳ Ngân",
-    views: "3.4K lượt xem",
-    uploadDate: "2 tuần trước",
-    thumbnail: "/placeholder.svg?height=450&width=800",
-    description: `
-            <p>Hướng dẫn chi tiết cách xây dựng và phát triển thương hiệu cá nhân:</p>
-            <ul>
-                <li>Xác định giá trị cốt lõi và định vị</li>
-                <li>Tạo visual identity nhất quán</li>
-                <li>Xây dựng presence trên các nền tảng</li>
-                <li>Networking và xây dựng mối quan hệ</li>
-            </ul>
-            <p>Thương hiệu cá nhân mạnh mẽ sẽ giúp bạn nổi bật trong thị trường cạnh tranh và tạo ra nhiều cơ hội nghề nghiệp.</p>
-        `,
-  },
+
 }
 
 // Load video content based on stored ID
@@ -83,13 +62,39 @@ function loadVideoContent(videoId) {
   const video = videos[videoId]
   if (video) {
     document.getElementById("videoTitle").textContent = video.title
-    document.getElementById("authorName").textContent = video.author
-    document.getElementById("viewCount").textContent = video.views
-    document.getElementById("uploadDate").textContent = video.uploadDate
     document.getElementById("videoDescription").innerHTML = video.description
     document.getElementById("videoPlayer").src = video.videoUrl
+
+    // Render video khác
+    const relatedContainer = document.querySelector(".related-videos-list")
+    relatedContainer.innerHTML = ""
+
+    Object.entries(videos).forEach(([id, v]) => {
+      if (id !== videoId) {
+        const html = `
+        <div class="related-video-item" onclick="loadVideo('${id}')">
+          <div class="related-thumbnail">
+            <img src="${v.thumbnail}" alt="${v.title}" />
+            <div class="related-play-button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M8 5v14l11-7z" fill="currentColor" />
+              </svg>
+            </div>
+            <span class="related-duration">10:00</span>
+          </div>
+          <div class="related-info">
+            <h3 class="related-title">${v.title}</h3>
+            <p class="related-author">${v.author || "YeaH1 Channel"}</p>
+            <p class="related-views">${v.views || ""} ${v.uploadDate ? "• " + v.uploadDate : ""}</p>
+          </div>
+        </div>
+        `
+        relatedContainer.insertAdjacentHTML("beforeend", html)
+      }
+    })
   }
 }
+
 
 function loadVideo(videoId) {
   localStorage.setItem("currentVideo", videoId)
@@ -98,7 +103,7 @@ function loadVideo(videoId) {
 }
 
 function goBack() {
-  window.history.back()
+  window.location.href = "index.html"
 }
 
 // Video player functionality
@@ -108,8 +113,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (videoPlayer && playButton) {
     videoPlayer.addEventListener("click", () => {
-      // Here you would typically load and play the actual video
-      // For demo purposes, we'll just show an alert
     })
   }
 })

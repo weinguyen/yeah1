@@ -248,6 +248,61 @@ body {
   color: var(--dark-text-secondary);
 }
 
+.description-content h4 {
+  font-size: 15px;
+  margin-top: 16px;
+  color: #2c7a7b;
+  font-weight: 700;
+}
+
+.description-content a {
+  color: #a78bfa;
+  /* tím nhạt cho link */
+  text-decoration: underline;
+}
+
+.highlight-section {
+  background-color: #241b35;
+  /* tím đậm hơn, gần đen */
+  border-left: 4px solid #a78bfa;
+  /* tím nhạt cho điểm nhấn */
+  padding: 16px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #e0e0ff;
+  /* gần trắng, có ánh tím */
+  box-shadow: 0 4px 10px rgba(167, 139, 250, 0.1);
+  /* bóng tím nhẹ */
+  transition: background 0.3s ease;
+}
+
+.highlight-section:hover {
+  background-color: #2e2346;
+  /* hover hơi sáng hơn */
+  box-shadow: 0 6px 20px rgba(167, 139, 250, 0.2);
+}
+
+.highlight-section h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #d8b4fe;
+  /* tím pastel sáng hơn */
+  margin-bottom: 10px;
+}
+
+.highlight-section li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  color: #cfcffb;
+  /* tím rất nhạt cho văn bản */
+}
+
+.author-subs {
+  font-size: 13px;
+  color: var(--dark-text-secondary);
+  margin-top: 2px;
+}
+
 /* Video Sidebar */
 .video-sidebar {
   background: var(--dark-surface);
