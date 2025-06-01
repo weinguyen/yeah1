@@ -500,6 +500,17 @@ body {
 }
 
 /* Students Section */
+.student-phone {
+  color: #666;
+  /* Đồng bộ với .student-id */
+  font-weight: 500;
+  margin-top: -12px;
+  font-size: 16px;
+  /* Thêm dòng này để đồng bộ với .student-id */
+  margin-bottom: 20px;
+  /* Thêm dòng này cho đồng bộ nếu cần */
+}
+
 .students-container {
   max-width: 1400px;
   margin: 0 auto;
