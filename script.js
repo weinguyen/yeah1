@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 
-  // Message box functionality
   const messageBox = document.getElementById("messageBox")
   const messageDropdown = document.getElementById("messageDropdown")
   const closeMessage = document.getElementById("closeMessage")
@@ -70,21 +69,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 })
 
-// Function to open article page
 function openArticle(articleId) {
-  // Store article ID in localStorage for the article page to use
   localStorage.setItem("currentArticle", articleId)
   window.location.href = "article.html"
 }
 
-// Function to open video page
 function openVideo(videoId) {
-  // Store video ID in localStorage for the video page to use
   localStorage.setItem("currentVideo", videoId)
   window.location.href = "video.html"
 }
 
-// Header scroll effect
 window.addEventListener("scroll", () => {
   const header = document.querySelector(".header")
   if (window.scrollY > 100) {
