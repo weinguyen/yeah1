@@ -19,11 +19,10 @@ const videos = {
               <div class="highlight-section">
     <h4>🎬 Vai trò sản xuất</h4>
     <ul>
-      <li><strong>Đạo diễn:</strong> ABC</li>
-      <li><strong>Biên kịch:</strong> ABC</li>
-      <li><strong>Quay phim:</strong> ABC</li>
-      <li><strong>Dựng phim:</strong> ABC</li>
-      <li><strong>Âm nhạc:</strong> ABC</li>
+      <li><strong>Đạo diễn:</strong> Sally Nguyễn, Đặng Ngân </li>
+      <li><strong>Biên kịch:</strong> Sally Nguyễn</li>
+      <li><strong>Quay phim:</strong> Đặng Ngân</li>
+      <li><strong>Dựng phim:</strong> Sally Nguyễn</li>
       <li><strong>Diễn viên:</strong> Trần Thị Thanh Thanh, Chu Minh Hoàng (Miho Chu)</li>
     </ul>
   </div>
