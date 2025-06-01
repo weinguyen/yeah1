@@ -39,6 +39,35 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     })
   })
+
+  // Message box functionality
+  const messageBox = document.getElementById("messageBox")
+  const messageDropdown = document.getElementById("messageDropdown")
+  const closeMessage = document.getElementById("closeMessage")
+
+  if (messageBox && messageDropdown && closeMessage) {
+    messageBox.addEventListener("click", () => {
+      messageDropdown.classList.add("active")
+    })
+
+    closeMessage.addEventListener("click", () => {
+      messageDropdown.classList.remove("active")
+    })
+
+    // Close dropdown when clicking outside
+    messageDropdown.addEventListener("click", (e) => {
+      if (e.target === messageDropdown) {
+        messageDropdown.classList.remove("active")
+      }
+    })
+
+    // Close with Escape key
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && messageDropdown.classList.contains("active")) {
+        messageDropdown.classList.remove("active")
+      }
+    })
+  }
 })
 
 // Function to open article page
@@ -82,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Calculate article width based on screen size
     function getArticleWidth() {
-      return articles[0].offsetWidth + 24;
+      return articles[0].offsetWidth + 24
     }
 
     // Update responsive values

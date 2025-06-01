@@ -21,6 +21,8 @@
                 <a href="#home" class="nav-link">Trang chủ</a>
                 <a href="#articles" class="nav-link">Bài báo</a>
                 <a href="#videos" class="nav-link">Video</a>
+                <a href="#contributors" class="nav-link">Người đóng góp</a>
+
             </nav>
             <button class="mobile-menu-btn" id="mobileMenuBtn">
                 <span></span>
@@ -37,6 +39,7 @@
             <a href="#students" class="mobile-nav-link">Sinh viên</a>
             <a href="#articles" class="mobile-nav-link">Bài viết</a>
             <a href="#videos" class="mobile-nav-link">Video</a>
+            <a href="#videos" class="mobile-nav-link">Video</a>
         </div>
     </div>
 
@@ -50,8 +53,29 @@
                     <p class="hero-class">Mã lớp: ĐCQHCCQT-TTQT51-IMC.6_LT</p>
                     <p class="hero-teacher">GV: Nguyễn Lương Diệu An</p>
                 </div>
-                <div class="hero-logo">
-                    <img src="./asset/yeah1news-logo.png" alt="Yeah1 Logo" />
+                <div class="hero-message-box" id="messageBox">
+                    <div class="message-content">
+                        <span class="message-text">Lời nhắn nhủ tới cô Lương Diệu An</span>
+                        <svg class="message-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Message Dropdown -->
+            <div class="message-dropdown" id="messageDropdown">
+                <div class="message-dropdown-content">
+                    <h3>Lời nhắn nhủ tới cô Lương Diệu An</h3>
+
+                    <p>Đây là thành quả của hai thành viên nhà báo đại diện của Yeah1 Group. Nhóm đã thực hiện ghi hình
+                        lấy tin từ trước đây một tháng. Đặc biệt, hai đại diện Yeah1 Group là những nhà báo duy nhất
+                        xuất hiện tại hôm tổng duyệt của họp báo</p>
+                    <p>Chúng em mong nỗ lực của mình sẽ được giảng viên ghi nhận. Chúng em cảm ơn cô vì đã cho sinh viên
+                        một cơ hội thực chiến để hiểu sâu hơn về ngành Truyền thông.</p>
+                    <p class="message-signature">Trân trọng</p>
+                    <button class="close-message" id="closeMessage">Đóng</button>
                 </div>
             </div>
 
@@ -65,6 +89,9 @@
                         <h3 class="student-name">Nguyễn Thị Quỳnh Giao</h3>
                         <p class="student-nickname">Sally Nguyễn</p>
                         <p class="student-id">MSV: TTQT51B11624</p>
+                        <div class="student-tags">
+                            <span class="student-tag">Phó ban nhà báo</span>
+                        </div>
                         <div class="student-description">
                         </div>
                     </div>
@@ -84,12 +111,11 @@
         </div>
     </section>
 
-
     <section class="articles" id="articles">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Bài báo</h2>
-                <p class="section-subtitle">Chia sẻ kiến thức và kinh nghiệm</p>
+
                 <div class="section-divider"></div>
             </div>
 
@@ -122,7 +148,7 @@
 
                         <article class="article-card" onclick="openArticle('article2')">
                             <div class="article-image">
-                                <img src="" alt="Article 2" />
+                                <img src="/placeholder.svg" alt="Article 2" />
                             </div>
                             <div class="article-content">
                                 <span class="article-category">Marketing</span>
@@ -130,7 +156,7 @@
                                 <p class="article-excerpt">Hướng dẫn xây dựng chiến lược marketing số cho doanh nghiệp
                                     nhỏ...</p>
                                 <div class="article-meta">
-                                    <span class="article-author">Đặng Thuỳ Ngân</span>w
+                                    <span class="article-author">Đặng Thuỳ Ngân</span>
                                 </div>
                             </div>
                         </article>
@@ -219,7 +245,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Video</h2>
-                <p class="section-subtitle">Hướng dẫn và chia sẻ kinh nghiệm</p>
+
                 <div class="section-divider"></div>
             </div>
 
@@ -242,8 +268,7 @@
 
                 <div class="video-card" onclick="openVideo('video2')">
                     <div class="video-thumbnail">
-                        <img src="https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg
-" alt="Video 2" />
+                        <img src="https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg" alt="Video 2" />
                         <div class="play-button">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M8 5v14l11-7z" fill="currentColor" />
@@ -254,7 +279,6 @@
                     <div class="video-info">
                         <h3 class="video-title">Chiến lược Content Marketing hiệu quả</h3>
                         <p class="video-author">Đặng Thuỳ Ngân</p>
-
                     </div>
                 </div>
 
@@ -271,7 +295,6 @@
                     <div class="video-info">
                         <h3 class="video-title">Cách tạo hiệu ứng động trong thiết kế</h3>
                         <p class="video-author">Nguyễn Thị Quỳnh Giao</p>
-
                     </div>
                 </div>
 
@@ -288,9 +311,136 @@
                     <div class="video-info">
                         <h3 class="video-title">Xây dựng thương hiệu cá nhân</h3>
                         <p class="video-author">Đặng Thuỳ Ngân</p>
-
-
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contributors Section -->
+    <section class="contributors" id="contributors">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Người đóng góp</h2>
+
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contributors-grid">
+                <!-- Row 1 -->
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/1.jpg" alt="Contributor 1" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Ngọc Đoan Trang</h4>
+                    <p class="contributor-id">LTMQT50B10979</p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/2.jpg" alt="Contributor 2" />
+                    </div>
+                    <h4 class="contributor-name">
+                        Chu Đào Ngọc Anh </h4>
+                    <p class="contributor-id">TTQT51C11512</p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/3.jpg" alt="Contributor 3" />
+                    </div>
+                    <h4 class="contributor-name">Đỗ Hoàng Long </h4>
+                    <p class="contributor-id">TTQT51C11733</p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/4.jpg" alt="Contributor 4" />
+                    </div>
+                    <h4 class="contributor-name">
+                        Trần Thị Thanh Thanh
+                    </h4>
+                    <p class="contributor-id">LTMQT50A40964</p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/5.jpg" alt="Contributor 5" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Quang Tiến</h4>
+                    <p class="contributor-id">TTQT51C11851</p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongvan/6.jpg" alt="Contributor 6" />
+                    </div>
+                    <h4 class="contributor-name">Chu Minh Hoàng</h4>
+                    <p class="contributor-id">TTQT51B11658
+                    </p>
+                    <p class="contributor-role">Tham gia phỏng vấn</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/1.jpg" alt="Contributor 7" />
+                    </div>
+                    <h4 class="contributor-name">Lê Khánh Linh</h4>
+                    <p class="contributor-id">TTQT51C11709</p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/2.jpg" alt="Contributor 8" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Phạm Ngọc Minh </h4>
+                    <p class="contributor-id">TTQT51B11756</p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/3.jpg" alt="Contributor 9" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Khánh Huyền </h4>
+                    <p class="contributor-id">TTQT51C11665</p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/4.jpg" alt="Contributor 10" />
+                    </div>
+                    <h4 class="contributor-name">Phan Thanh Sơn</h4>
+                    <p class="contributor-id">
+                        TTQT51C11846</p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/5.jpg" alt="Contributor 11" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Thị Phương Nga</h4>
+                    <p class="contributor-id">TTQT50C11851</p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
+                </div>
+
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <img src="./asset/phongsu/6.jpg" alt="Contributor 12" />
+                    </div>
+                    <h4 class="contributor-name">Nguyễn Hà Linh </h4>
+                    <p class="contributor-id">TTQT51C11730 </p>
+                    <p class="contributor-role">Tham gia phóng sự</p>
                 </div>
             </div>
         </div>
