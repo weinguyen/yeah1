@@ -1416,3 +1416,62 @@ body {
     padding: 60px 0;
   }
 }
+
+
+
+.contributors-message {
+  max-width: 800px;
+  margin: 60px auto 0;
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.contributors-message p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.contributors-message .signature {
+  color: var(--light-purple);
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .contributors-message {
+    margin: 40px auto 0;
+    padding: 24px;
+  }
+
+  .contributors-message p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+
+.footer-disclaimer {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.footer-disclaimer p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .footer-disclaimer {
+    font-size: 0.7rem;
+    padding: 0 16px;
+  }
+}

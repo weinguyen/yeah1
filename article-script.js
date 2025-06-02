@@ -1,98 +1,140 @@
 // Article data
 const articles = {
   article1: {
-    title: "Lối sống tối giản: Xu hướng sống mới của giới trẻ",
-    author: "Phạm Thảo Vy",
-    category: "Phong cách sống",
-    date: "27 tháng 5, 2025",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    category: "SPOTLIGHT",
+    title: "Diễn viên Nguyễn Quang Tiến khẳng định “ca sĩ Miho Chu chưa nên dấn thân vào làng điện ảnh",
     content: `
-    <p class="lead">Lối sống tối giản (minimalism) không chỉ là phong cách bài trí nội thất mà còn là triết lý sống đang được giới trẻ ưa chuộng.</p>
+       <p class="time">Chủ nhật, 25/05/2025 | 10:30 (GMT+7)</p>
+     <p class = "lead">Trong đoạn phỏng vấn cùng Yeah1, diễn viên nổi tiếng kiêm giảng viên Trường đại học Sân khấu điện ảnh Nguyễn Quang Tiến, bằng con mắt 20 năm trong nghề của mình, đã khẳng định ca sĩ trẻ Miho Chu chưa nên vội vã lấn sân sang làng điện ảnh.  </p>
+    <p>Sau thời gian dài vắng bóng trên màn ảnh do bận rộn với dự án sản xuất phim đầu tiên do chính mình làm đạo diễn, diễn viên Quang Tiến đã đồng ý tham gia vào vai diễn “người cha” trong MV mới của ca sĩ Miho Chu. Đây không chỉ là một màn trở lại đáng mong chờ mà còn là lần đầu tiên diễn viên Quang Tiến tham gia vào một dự án âm nhạc.</p>
+
+    <p>Trong dự án lần này, anh đã hợp tác ghi hình cùng ca sĩ trẻ tuổi Miho Chu. Miho Chu vốn là một giọng hát đầy nội lực từng làm mưa làm gió trong làng nhạc Việt khi xuất hiện trong chương trình The Voice Kids năm 2015. Tuy chỉ dừng lại ở vị trí thứ 8 nhưng ca sĩ Miho Chu đã để lại không ít ấn tượng trong lòng khán giả bởi tông giọng lạ cùng gia thế “khủng” - cháu ngoại NSND Tiến Dũng - ca sĩ Phương Thanh cùng hai người bác là ca sĩ Hương Tràm, và ca sĩ Tiến Mạnh. Thế nhưng ca sĩ Miho đã ngụp lặn 10 năm trong nghề và tới tận năm nay, anh mới trở lại với sản phẩm âm nhạc “Playlist” - cũng chính là MV có sự hợp tác của diễn viên Quang Tiến.</p>
+
+    <p>Phỏng vấn diễn viên Quang Tiến về trải nghiệm hợp tác cùng ca sĩ Miho, anh đánh giá Miho là một giọng hát tốt và đầy triển vọng. Anh đã trực tiếp lắng nghe ca khúc của Miho nhiều lần từ bản thu tới hát live ngoài đời, lần nào Miho cũng khiến anh phải tấm tắc khen ngợi vì tài năng ca hát xuất sắc.</p>
 
     <figure>
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Minimalist lifestyle" />
-      <figcaption>Không gian sống tối giản giúp giảm căng thẳng</figcaption>
+      <img src="./asset/bao/1/1.png" alt="Minimalist lifestyle" />
+      <figcaption>hình ảnh từ MV “Playlist” </figcaption>
     </figure>
 
-    <h2>1. Tối giản để sống nhẹ nhàng hơn</h2>
-    <p>Sống tối giản giúp con người tập trung vào những điều thật sự quan trọng, loại bỏ sự dư thừa không cần thiết.</p>
+    <p>Đánh giá về diễn xuất của ca sĩ Miho Chu khi Miho trực tiếp tham gia vào vai trò diễn viên MV, diễn viên Quang Tiến chia sẻ “Miho đã làm khá tốt”. Anh thuật lại rằng trong suốt quá trình ghi hình, ca sĩ Miho đã gặp nhiều khó khăn khi không nắm bắt được cảm xúc nhân vật và không thể kiểm soát hoàn toàn biểu cảm của mình. Anh cùng với ekip đã phải hỗ trợ ca sĩ Miho rất nhiều trong suốt quá trình ghi hình và thật may mắn, Miho là một “học trò” nhanh nhạy, tiếp thu nhanh và rất cầu tiến. Thêm vào đó anh còn khẳng định ca sĩ Miho đang quá tự ti mỗi khi đánh giá về khả năng diễn xuất của chính mình. </p>
 
-    <h2>2. Không gian tối giản và tinh thần</h2>
-    <p>Không gian gọn gàng, ít vật dụng có thể mang lại cảm giác thư giãn và tăng năng suất làm việc.</p>
-
-    <figure>
-      <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1000&q=80" alt="Minimalist interior" />
-      <figcaption>Nội thất tối giản nhưng tinh tế</figcaption>
-    </figure>
-
-    <h2>3. Lối sống bền vững</h2>
-    <p>Tối giản gắn liền với tiêu dùng có ý thức – giảm thiểu rác thải, tiết kiệm tài nguyên và hướng tới sự bền vững.</p>
-
-    <h2>Kết luận</h2>
-    <p>Minimalism không chỉ là phong trào mà là lựa chọn sống có chủ đích, giúp con người sống chậm và sâu sắc hơn.</p>
+    <p>Thế nhưng khi được hỏi “Anh nghĩ Miho có nên lấn sân sang làng điện ảnh không?” thì anh trả lời “Tôi nghĩ thời điểm hiện tại ca sĩ Miho Chu chưa nên dấn thân vào làng điện ảnh. Xu hướng hiện nay đang có rất nhiều bạn ca sĩ trẻ lấn sân sang con đường diễn xuất. Đối với với Miho, mình thấy được khả năng của bạn trong vai trò ca sĩ. Ở giai đoạn đầu mới debut, bạn nên tập trung vào con đường âm nhạc để phát huy hết tài năng vốn có của mình hơn là vội vàng chuyển hướng sang điện ảnh, như thế rất uổng phí.” </p>
+    <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
+        <div class="article-tags">
+      <span class="article-tag">#Spotlight</span>
+      <span class="article-tag">#Sao</span>
+      <span class="article-tag">#Âm_nhạc</span>
+    </div>
+   
   `
   },
 
   article2: {
-    title: "Chiến lược Marketing số hiệu quả",
-    author: "Đặng Thuỳ Ngân",
-    category: "Marketing",
-    date: "12 tháng 1, 2024",
-    image: "/placeholder.svg?height=400&width=800",
+    category: "HẬU TRƯỜNG",
+    title: "Phía sau hậu trường, ca sĩ Miho Chu quỳ gối trước đạo diễn Hoàng Long",
     content: `
-            <p class="lead">Marketing số đã trở thành yếu tố then chốt quyết định sự thành công của doanh nghiệp trong thời đại kỹ thuật số.</p>
-            
-            <h2>1. Xác định đối tượng khách hàng</h2>
-            <p>Việc hiểu rõ đối tượng khách hàng là bước đầu tiên và quan trọng nhất trong việc xây dựng chiến lược marketing số hiệu quả.</p>
-            
-            <h2>2. Tối ưu hóa SEO</h2>
-            <p>SEO không chỉ giúp website xuất hiện trên trang đầu của Google mà còn tăng độ tin cậy và uy tín của thương hiệu.</p>
-            
-            <h2>3. Content Marketing</h2>
-            <p>Nội dung chất lượng là vua. Tạo ra những nội dung có giá trị, hữu ích cho khách hàng sẽ giúp xây dựng mối quan hệ lâu dài.</p>
-            
-            <h2>4. Social Media Marketing</h2>
-            <p>Mạng xã hội là kênh tiếp cận khách hàng trực tiếp và hiệu quả nhất hiện nay.</p>
-        `,
+       <p class="time">Thứ bảy, 31/05/2025 | 09:30 (GMT+7)</p>
+       <p class="lead">Ngay trước ngày chính thức ra mắt MV "Playlist", ca sĩ trẻ Miho Chu đã có hành động quỳ gối trước đạo diễn Hoàng Long với sự chứng kiến của nhiều nhân vật quan trọng ekip sản xuất MV.</p>
+
+    <p>Sau 5 tiếng tổng duyệt họp báo đầy căng thẳng, một số thành viên của PRism Production cùng với ca sĩ, diễn viên của MV "Playlist" đã tụ họp với nhau để giải trí bằng trò chơi "Tiến lên" với hình phạt quỳ. Sau 2 lượt chơi, ca sĩ Miho Chu đã phải "quỳ gối" khuất phục trước đạo diễn Hoàng Long.</p>
+
+     <figure>
+      <img src="./asset/bao/2/3.png" alt="Ca sĩ Miho Chu quỳ gối" />
+      <figcaption>Ca sĩ Miho Chu "quỳ gối" trước đạo diễn Hoàng Long</figcaption>
+    </figure>
+
+
+    <p>Thế nhưng chỉ thêm vài ván so tài thì vận đen đã chuyển lên người đạo diễn. Lần này cả nhóm sản xuất lại được dịp trêu chọc nam đạo diễn trẻ tuổi.</p>
+
+     <figure>
+      <img src="./asset/bao/2/2.png" alt="Đạo diễn Hoàng Long bị phạt" />
+      <figcaption>Cả nhóm vui vẻ trêu chọc đạo diễn Hoàng Long khi anh bị phạt quỳ</figcaption>
+    </figure>
+
+
+    <figure>
+      <img src="./asset/bao/2/6.png" alt="Tổng biên kịch Chu Đào Ngọc Anh" />
+      <figcaption>Tổng biên kịch Chu Đào Ngọc Anh vẫn cười tươi khi bị phạt</figcaption>
+    </figure>
+
+    <figure>
+      <img src="./asset/bao/2/7.png" alt="Ca sĩ Miho Chu đắc ý" />
+      <figcaption>Ca sĩ Miho Chu "đắc ý" khoe vận đỏ với diễn viên Thanh Thanh</figcaption>
+    </figure>
+
+    <p>Bầu không khí tại hậu trường rất ấm áp và gần gũi. Sau thời gian dài đồng hành làm việc trong dự án MV "Playlist", các thành viên của đội ngũ sản xuất đã coi nhau là bạn bè tốt và thoải mái cười đùa. Các nghệ sĩ cũng chia sẻ họ thường xuyên ra ngoài ăn uống hoặc đi chơi mặc cho những khoảng cách về tuổi tác. Họ cũng bày tỏ mong muốn sẽ được tiếp tục hợp tác trong nhiều dự án khác.</p>
+
+    <p>Ngoài thời gian cả nhóm cùng chơi đùa, rất nhiều khoảnh khắc bắt gặp nhóm nghệ sĩ - đội ngũ sản xuất chia thành cặp ngồi tâm sự gần gũi với nhau về các câu chuyện làm nghề hoặc chuyện đời sống hằng ngày.</p>
+
+    <figure>
+      <img src="./asset/bao/2/1.png" alt="Diễn viên Quang Tiến plank" />
+      <figcaption>Diễn viên Quang Tiến khoe tài plank 1 phút trước đạo diễn Hoàng Long</figcaption>
+    </figure>
+
+     <figure>
+      <img src="./asset/bao/2/4.png" alt="Trưởng BTC Phương Nga tạo dáng" />
+      <figcaption>Trưởng BTC Phương Nga tạo dáng nhí nhảnh cùng diễn viên chính và ca sĩ</figcaption>
+    </figure>
+     <figure>
+      <img src="./asset/bao/2/5.png" alt="Giám đốc nghệ thuật và đạo diễn" />
+      <figcaption>Giám đốc nghệ thuật Đoan Trang cùng đạo diễn Hoàng Long tâm sự thân thiết</figcaption>
+    </figure>
+
+
+    <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
+    <div class="article-tags">
+      <span class="article-tag">#Hậu_trường</span>
+      <span class="article-tag">#Sao</span>
+    </div>
+    `
   },
   article3: {
-    title: "Nghệ thuật kể chuyện trong PR",
-    author: "Nguyễn Thị Quỳnh Giao",
-    category: "Truyền thông",
-    date: "10 tháng 1, 2024",
-    image: "/placeholder.svg?height=400&width=800",
+    category: "Âm nhạc",
+    title: `Buổi họp báo ra mắt MV "Playlist" của ca sĩ Miho Chu: Tái hiện khoảnh khắc đầy xúc động`,
     content: `
-            <p class="lead">Storytelling là một trong những công cụ mạnh mẽ nhất trong PR, giúp tạo ra kết nối cảm xúc với khán giả.</p>
-            
-            <h2>1. Tầm quan trọng của storytelling</h2>
-            <p>Con người sinh ra đã có khả năng kể chuyện và lắng nghe câu chuyện. Đây là cách tự nhiên nhất để truyền tải thông điệp.</p>
-            
-            <h2>2. Cấu trúc câu chuyện hiệu quả</h2>
-            <p>Một câu chuyện tốt cần có nhân vật, xung đột, và kết thúc có ý nghĩa.</p>
-            
-            <h2>3. Ứng dụng trong PR</h2>
-            <p>Storytelling trong PR giúp nhân hóa thương hiệu và tạo ra những trải nghiệm đáng nhớ cho khách hàng.</p>
-        `,
+       <p class="time">Thứ bảy, 31/5/2025 | 13:20 (GMT+7)</p>
+       <p class="lead">Sau bao ngày tháng chờ đợi, buổi họp báo ra mắt MV "Playlist", đánh dấu sự trở lại của nghệ sĩ trẻ Miho Chu đã chính thức được tổ chức vào 10 giờ sáng ngày 31/5/2025 tại Thai Room, Học viện Ngoại giao với sự tham gia của ekip sản xuất, đạo diễn Hoàng Long cùng diễn viên Thanh Thanh và diễn viên Quang Tiến - hai diễn viên chính trong MV lần này.</p>
+
+    <p>Trong buổi họp báo ra mắt MV, các quý vị khách mời đã lần đầu được thưởng thức những thước phim đầy nghệ thuật. Được biết, ekip sản xuất đã phải mất hàng tháng trời làm việc không ngừng nghỉ để hoàn thiện sản phẩm ra mắt của ca sĩ Miho Chu.</p>
+
+   // Replace the current image-row section with:
+
+<div class="image-row">
+  <figure>
+    <img src="./asset/bao/3/2.jpg" alt="Hình ảnh từ MV Playlist" />
+  </figure>
+  <figure>
+    <img src="./asset/bao/3/1.jpg" alt="Hình ảnh từ MV Playlist" />
+  </figure>
+  <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
+</div>
+
+    <p>Bên cạnh sự chỉn chu trong sản xuất MV, đội ngũ PRism Production cũng chuẩn bị rất kỹ lưỡng cho ngày ra mắt chính thức. Buổi họp báo được trang trí cùng chủ đề với MV, xoay quanh đĩa cassette và hạc giấy.</p>
+
+    <p>Sau khi trả lời những câu hỏi của phía nhà báo, bộ ba diễn viên chính xuất hiện trong MV lần này: ca sĩ Miho Chu (trong vai người con), diễn viên Trần Thị Thanh Thanh (trong vai người mẹ) và diễn viên Nguyễn Quang Tiến (trong vai người bố) đã có một màn diễn xuất trực tiếp ngay trên sân khấu của buổi họp báo. Bộ ba đã diễn lại cảnh quay nổi bật nhất cũng là cảnh quay để lại ấn tượng nhất trong kí ức của ba diễn viên: cảnh nhân vật con trình bày mong muốn được theo đuổi sự nghiệp âm nhạc gây ra mâu thuẫn lớn trong cả gia đình. Đây là cảnh quay đã lấy đi nhiều nước mắt của cả ba diễn viên khi ghi hình cho MV bởi sự căng thẳng và chân thật trong từng lời thoại cũng như sự đồng cảm của họ đối với câu chuyện của nhân vật.</p>
+
+    <figure>
+      <img src="./asset/bao/3/3.png" alt="Hình ảnh tại buổi họp báo" />
+      <figcaption>Hình ảnh tại buổi họp báo</figcaption>
+    </figure>
+
+   <div class="video-wrapper">
+  <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1xP3ztwJUvE1woHX2HS4DITlJEdhXvXb4/preview" frameborder="0"  allow="autoplay" allowfullscreen></iframe>
+  </div>
+  <figcaption>Khung cảnh trong MV được tái hiện ngay trong buổi ra mắt họp báo</figcaption>
+</div>
+
+    <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
+    <div class="article-tags">
+      <span class="article-tag">#Spotlight</span>
+      <span class="article-tag">#Âm_nhạc</span>
+      <span class="article-tag">#Sao</span>
+    </div>
+    `
   },
-  article4: {
-    title: "Tối ưu hóa nội dung Social Media",
-    author: "Đặng Thuỳ Ngân",
-    category: "Social Media",
-    date: "8 tháng 1, 2024",
-    image: "/placeholder.svg?height=400&width=800",
-    content: `
-            <p class="lead">Tạo nội dung hấp dẫn trên mạng xã hội đòi hỏi sự hiểu biết sâu sắc về từng nền tảng và đối tượng khách hàng.</p>
-            
-            <h2>1. Hiểu rõ từng nền tảng</h2>
-            <p>Mỗi nền tảng mạng xã hội có đặc điểm và đối tượng người dùng riêng biệt.</p>
-            
-            <h2>2. Tạo nội dung visual hấp dẫn</h2>
-            <p>Hình ảnh và video luôn thu hút sự chú ý nhiều hơn so với văn bản thuần túy.</p>
-            
-            <h2>3. Tương tác với cộng đồng</h2>
-            <p>Social media là về sự tương tác hai chiều, không chỉ đơn thuần là đăng nội dung.</p>
-        `,
-  },
+
 }
 
 // Load article content based on stored ID
@@ -105,24 +147,46 @@ function loadArticleContent(articleId) {
   const article = articles[articleId]
   if (article) {
     document.getElementById("articleTitle").textContent = article.title
-    document.getElementById("articleImage").src = article.image
     document.getElementById("articleContent").innerHTML = article.content
 
-    const categoryElement = document.querySelector(".article-category")
-    const dateElement = document.querySelector(".article-date")
-    if (categoryElement) categoryElement.textContent = article.category
-    if (dateElement) {
-      dateElement.textContent = article.date
-    }
+    // Render related articles
+    const relatedContainer = document.querySelector(".articles-grid")
+    relatedContainer.innerHTML = ""
+
+    Object.entries(articles).forEach(([id, a]) => {
+      if (id !== articleId) {
+        const html = `
+        <div class="article-card" onclick="loadArticle('${id}')">
+          <div class="article-thumbnail">
+            <img src="${a.image || getFirstImage(a.content) || './asset/placeholder.jpg'}" alt="${a.title}" />
+          </div>
+          <div class="article-info">
+            <h3 class="article-title">${a.title}</h3>
+            <p class="article-meta">
+              ${a.category ? `<span class="article-category">${a.category}</span>` : ''}
+              ${a.date ? `<span class="article-date">${a.date}</span>` : ''}
+            </p>
+          </div>
+        </div>
+        `
+        relatedContainer.insertAdjacentHTML("beforeend", html)
+      }
+    })
   }
 }
+
 
 function loadArticle(articleId) {
   localStorage.setItem("currentArticle", articleId)
   loadArticleContent(articleId)
-  window.scrollTo({ top: 0, behavior: "smooth" })
+  window.scrollTo(0, 0)
 }
 
 function goBack() {
   window.history.back()
+}
+
+function getFirstImage(content) {
+  const match = content.match(/<img.*?src=["'](.*?)["']/)
+  return match ? match[1] : null
 }
