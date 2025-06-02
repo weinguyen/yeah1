@@ -98,7 +98,7 @@ const articles = {
 
     <p>Trong buổi họp báo ra mắt MV, các quý vị khách mời đã lần đầu được thưởng thức những thước phim đầy nghệ thuật. Được biết, ekip sản xuất đã phải mất hàng tháng trời làm việc không ngừng nghỉ để hoàn thiện sản phẩm ra mắt của ca sĩ Miho Chu.</p>
 
-   // Replace the current image-row section with:
+   
 
 <div class="image-row">
   <figure>
