@@ -177,11 +177,32 @@ function loadArticleContent(articleId) {
 
 
 function loadArticle(articleId) {
-  localStorage.setItem("currentArticle", articleId)
-  loadArticleContent(articleId)
-  window.scrollTo(0, 0)
+  // Add fade out effect
+  document.body.style.opacity = '0'
+  document.body.style.transition = 'opacity 0.3s ease'
+
+  setTimeout(() => {
+    // Update content
+    localStorage.setItem("currentArticle", articleId)
+    loadArticleContent(articleId)
+    window.scrollTo(0, 0)
+
+    // Fade back in
+    document.body.style.opacity = '1'
+
+    // Update URL without reload
+    const newUrl = `?article=${articleId}`
+    window.history.pushState({ articleId }, '', newUrl)
+  }, 300)
 }
 
+// Handle browser back/forward buttons
+window.onpopstate = function (event) {
+  if (event.state && event.state.articleId) {
+    loadArticleContent(event.state.articleId)
+    window.scrollTo(0, 0)
+  }
+}
 function goBack() {
   window.history.back()
 }
