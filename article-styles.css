@@ -118,8 +118,9 @@ body {
 }
 
 .article-category {
-  background: var(--primary-purple);
-  color: var(--white);
+  background: var(--white);
+  color: var(--primary-purple);
+  border: var(--primary-purple) 2px solid;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;

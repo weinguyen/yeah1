@@ -24,7 +24,7 @@ const articles = {
         <div class="article-tags">
       <span class="article-tag">Spotlight</span>
       <span class="article-tag">Sao</span>
-      <span class="article-tag">Âm_nhạc</span>
+      <span class="article-tag">Âm nhạc</span>
     </div>
    
   `
@@ -84,7 +84,7 @@ const articles = {
 
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
     <div class="article-tags">
-      <span class="article-tag">Hậu_trường</span>
+      <span class="article-tag">Hậu trường</span>
       <span class="article-tag">Sao</span>
     </div>
     `
@@ -129,7 +129,7 @@ const articles = {
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
     <div class="article-tags">
       <span class="article-tag">Spotlight</span>
-      <span class="article-tag">Âm_nhạc</span>
+      <span class="article-tag">Âm nhạc</span>
       <span class="article-tag">Sao</span>
     </div>
     `
