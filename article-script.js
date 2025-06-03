@@ -91,7 +91,9 @@ const articles = {
   },
   article3: {
     category: "Âm nhạc",
-    title: `Buổi họp báo ra mắt MV "Playlist" của ca sĩ Miho Chu: Tái hiện khoảnh khắc đầy xúc động`,
+    title: `Màn diễn bùng nổ được tái hiện ngay trong 
+buổi họp báo ra mắt MV “Playlist”
+`,
     content: `
        <p class="time">Thứ bảy, 31/5/2025 | 13:20 (GMT+7)</p>
        <p class="lead">Sau bao ngày tháng chờ đợi, buổi họp báo ra mắt MV "Playlist", đánh dấu sự trở lại của nghệ sĩ trẻ Miho Chu đã chính thức được tổ chức vào 10 giờ sáng ngày 31/5/2025 tại Thai Room, Học viện Ngoại giao với sự tham gia của ekip sản xuất, đạo diễn Hoàng Long cùng diễn viên Thanh Thanh và diễn viên Quang Tiến - hai diễn viên chính trong MV lần này.</p>
@@ -111,13 +113,13 @@ const articles = {
 </div>
 
     <p>Bên cạnh sự chỉn chu trong sản xuất MV, đội ngũ PRism Production cũng chuẩn bị rất kỹ lưỡng cho ngày ra mắt chính thức. Buổi họp báo được trang trí cùng chủ đề với MV, xoay quanh đĩa cassette và hạc giấy.</p>
-
-    <p>Sau khi trả lời những câu hỏi của phía nhà báo, bộ ba diễn viên chính xuất hiện trong MV lần này: ca sĩ Miho Chu (trong vai người con), diễn viên Trần Thị Thanh Thanh (trong vai người mẹ) và diễn viên Nguyễn Quang Tiến (trong vai người bố) đã có một màn diễn xuất trực tiếp ngay trên sân khấu của buổi họp báo. Bộ ba đã diễn lại cảnh quay nổi bật nhất cũng là cảnh quay để lại ấn tượng nhất trong kí ức của ba diễn viên: cảnh nhân vật con trình bày mong muốn được theo đuổi sự nghiệp âm nhạc gây ra mâu thuẫn lớn trong cả gia đình. Đây là cảnh quay đã lấy đi nhiều nước mắt của cả ba diễn viên khi ghi hình cho MV bởi sự căng thẳng và chân thật trong từng lời thoại cũng như sự đồng cảm của họ đối với câu chuyện của nhân vật.</p>
-
-    <figure>
+ <figure>
       <img src="./asset/bao/3/3.png" alt="Hình ảnh tại buổi họp báo" />
       <figcaption>Hình ảnh tại buổi họp báo</figcaption>
     </figure>
+    <p>Sau khi trả lời những câu hỏi của phía nhà báo, bộ ba diễn viên chính xuất hiện trong MV lần này: ca sĩ Miho Chu (trong vai người con), diễn viên Trần Thị Thanh Thanh (trong vai người mẹ) và diễn viên Nguyễn Quang Tiến (trong vai người bố) đã có một màn diễn xuất trực tiếp ngay trên sân khấu của buổi họp báo. Bộ ba đã diễn lại cảnh quay nổi bật nhất cũng là cảnh quay để lại ấn tượng nhất trong kí ức của ba diễn viên: cảnh nhân vật con trình bày mong muốn được theo đuổi sự nghiệp âm nhạc gây ra mâu thuẫn lớn trong cả gia đình. Đây là cảnh quay đã lấy đi nhiều nước mắt của cả ba diễn viên khi ghi hình cho MV bởi sự căng thẳng và chân thật trong từng lời thoại cũng như sự đồng cảm của họ đối với câu chuyện của nhân vật.</p>
+
+   
 
    <div class="video-wrapper">
   <div class="video-container">
