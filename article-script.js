@@ -22,9 +22,9 @@ const articles = {
     <p>Thế nhưng khi được hỏi “Anh nghĩ Miho có nên lấn sân sang làng điện ảnh không?” thì anh trả lời “Tôi nghĩ thời điểm hiện tại ca sĩ Miho Chu chưa nên dấn thân vào làng điện ảnh. Xu hướng hiện nay đang có rất nhiều bạn ca sĩ trẻ lấn sân sang con đường diễn xuất. Đối với với Miho, mình thấy được khả năng của bạn trong vai trò ca sĩ. Ở giai đoạn đầu mới debut, bạn nên tập trung vào con đường âm nhạc để phát huy hết tài năng vốn có của mình hơn là vội vàng chuyển hướng sang điện ảnh, như thế rất uổng phí.” </p>
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
         <div class="article-tags">
-      <span class="article-tag">#Spotlight</span>
-      <span class="article-tag">#Sao</span>
-      <span class="article-tag">#Âm_nhạc</span>
+      <span class="article-tag">Spotlight</span>
+      <span class="article-tag">Sao</span>
+      <span class="article-tag">Âm_nhạc</span>
     </div>
    
   `
@@ -84,8 +84,8 @@ const articles = {
 
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
     <div class="article-tags">
-      <span class="article-tag">#Hậu_trường</span>
-      <span class="article-tag">#Sao</span>
+      <span class="article-tag">Hậu_trường</span>
+      <span class="article-tag">Sao</span>
     </div>
     `
   },
@@ -128,9 +128,9 @@ const articles = {
 
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
     <div class="article-tags">
-      <span class="article-tag">#Spotlight</span>
-      <span class="article-tag">#Âm_nhạc</span>
-      <span class="article-tag">#Sao</span>
+      <span class="article-tag">Spotlight</span>
+      <span class="article-tag">Âm_nhạc</span>
+      <span class="article-tag">Sao</span>
     </div>
     `
   },
