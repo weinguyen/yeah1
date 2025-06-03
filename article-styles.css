@@ -87,11 +87,16 @@ body {
 
 .logo {
   justify-self: center;
+  transition: var(--transition);
 }
 
 .logo img {
   height: 32px;
   width: auto;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 /* Article Main */
