@@ -102,10 +102,10 @@ const articles = {
 
 <div class="image-row">
   <figure>
-    <img src="./asset/bao/3/2.jpg" alt="Hình ảnh từ MV Playlist" />
+    <img src="./asset/bao/3/1.jpg" alt="Hình ảnh từ MV Playlist" />
   </figure>
   <figure>
-    <img src="./asset/bao/3/1.jpg" alt="Hình ảnh từ MV Playlist" />
+    <img src="./asset/bao/3/2.jpg" alt="Hình ảnh từ MV Playlist" />
   </figure>
   <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
 </div>
