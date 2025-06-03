@@ -244,6 +244,25 @@ body {
   line-height: 1.6;
 }
 
+.lead {
+  font-size: 22px;
+  font-weight: 300;
+  /* Increased from 100 for better readability */
+  color: var(--gray-500);
+  /* Changed from gray-700 to gray-500 for lighter color */
+  margin-bottom: 32px;
+  line-height: 1.8;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  letter-spacing: 0.4px;
+  /* Slightly increased for airier feel */
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  opacity: 0.9;
+  /* Added slight transparency */
+  -webkit-font-smoothing: antialiased;
+  /* Better font smoothing */
+}
+
 .article-content h2 {
   font-size: 28px;
   font-weight: 700;
@@ -255,6 +274,8 @@ body {
 
 .article-content p {
   margin-bottom: 24px;
+  font-weight: 530;
+  /* Added font-weight for slightly bolder text */
 }
 
 /* Related Articles */
