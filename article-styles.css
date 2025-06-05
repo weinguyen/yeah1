@@ -206,10 +206,58 @@ body {
 }
 
 .article-content figure {
-  margin: 48px calc(-50vw + 50%);
+  margin: 30px calc(-50vw + 50%);
   width: 100vw;
   text-align: center;
 }
+
+.article-content figure img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.article-section-title {
+  font-size: 1.5em;
+  font-weight: 1000;
+
+  font-family: 'Playfair Display', serif;
+}
+
+.article-content .a {
+  margin: 0px calc(-50vw + 50%);
+  ;
+}
+
+.article-content .b {
+  margin: 0px calc(-50vw + 50%) 40px;
+  ;
+}
+
+.quote.highlight {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: var(--primary-purple);
+  font-size: 1.2em;
+  margin: 2em 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.article-content strong {
+  font-weight: bolder;
+}
+
+.interview-question {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  color: var(--gray-700);
+  line-height: 1.6;
+  padding-right: 20px;
+  margin-bottom: 0 !important;
+
+}
+
 
 .article-content img {
   width: 100%;
@@ -221,11 +269,13 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+
+
 .article-content figcaption {
-  margin-top: 0.5rem;
+
   font-style: italic;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 
