@@ -206,8 +206,9 @@ body {
 }
 
 .article-content figure {
-  margin: 30px calc(-50vw + 50%);
-  width: 100vw;
+  margin: 30px auto;
+  max-width: 900px;
+  width: 100%;
   text-align: center;
 }
 
@@ -224,13 +225,13 @@ body {
 }
 
 .article-content .a {
-  margin: 0px calc(-50vw + 50%);
-  ;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .article-content .b {
-  margin: 0px calc(-50vw + 50%) 40px;
-  ;
+  margin-top: 0px;
+
 }
 
 .quote.highlight {
@@ -264,7 +265,6 @@ body {
   max-width: 900px;
   height: auto;
   margin: 0 auto;
-  border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
@@ -284,6 +284,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   color: var(--gray-700);
+  text-align: justify;
 }
 
 .article-content .lead {
@@ -549,12 +550,14 @@ body {
 
 
 .image-row {
-  margin: 48px calc(-50vw + 50%);
-  width: 100vw;
+  margin: 48px auto;
+  max-width: 900px;
+
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   position: relative;
   padding: 0;
 }
@@ -668,8 +671,64 @@ body {
 }
 
 
-
+/* Article Meta Styling */
 .article-meta {
-  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid var(--gray-200);
+  margin-top: 20px;
+}
+
+.article-meta-left {
+  display: flex;
+  gap: 24px;
+  /* Space between author and interview */
+  align-items: center;
+}
+
+.article-author,
+.article-interview {
+  display: flex;
+  align-items: center;
   color: var(--gray-600);
+  font-size: 12px;
+}
+
+.article-author {
+  position: relative;
+  margin-right: 8px;
+}
+
+/* Add separator between author and interview */
+.article-author::after {
+  content: "•";
+  position: absolute;
+  right: -16px;
+  color: var(--gray-400);
+}
+
+.article-date {
+  color: var(--gray-500);
+  font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .article-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .article-meta-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .article-date {
+    width: 100%;
+    text-align: right;
+  }
 }

@@ -21,6 +21,7 @@ const articles = {
 
     <p>Thế nhưng khi được hỏi “Anh nghĩ Miho có nên lấn sân sang làng điện ảnh không?” thì anh trả lời “Tôi nghĩ thời điểm hiện tại ca sĩ Miho Chu chưa nên dấn thân vào làng điện ảnh. Xu hướng hiện nay đang có rất nhiều bạn ca sĩ trẻ lấn sân sang con đường diễn xuất. Đối với với Miho, mình thấy được khả năng của bạn trong vai trò ca sĩ. Ở giai đoạn đầu mới debut, bạn nên tập trung vào con đường âm nhạc để phát huy hết tài năng vốn có của mình hơn là vội vàng chuyển hướng sang điện ảnh, như thế rất uổng phí.” </p>
     <p style="text-align: right;"><strong>Biên tập: Sally Nguyễn</strong></p>
+     <p style="text-align: right;"><strong>Phỏng vấn: Đặng Ngân, Sally Nguyễn</strong></p>
         <div class="article-tags">
       <span class="article-tag">Spotlight</span>
       <span class="article-tag">Sao</span>
@@ -90,6 +91,7 @@ const articles = {
     `
   },
   article3: {
+    image: "./asset/bao/3/thumbmail.jpg",
     category: "Âm nhạc",
     title: `Màn diễn bùng nổ được tái hiện ngay trong 
 buổi họp báo ra mắt MV “Playlist”
@@ -174,6 +176,7 @@ buổi họp báo ra mắt MV “Playlist”
     `
   },
   article5: {
+
     category: "PHỎNG VẤN",
     title: `Gặp Long Đỗ – đạo diễn trẻ đứng sau MV "Playlist" của Miho Chu"`,
     content: `
