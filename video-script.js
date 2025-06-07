@@ -31,12 +31,42 @@ const videos = {
         `,
   },
   video2: {
+    title: "MIHO CHU bật mí hành trình debut: MV đầu tay có gì đặc biệt? | Sao Chat",
+    thumbnail: "https://img.youtube.com/vi/Q0D1uImdjbw/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/embed/Q0D1uImdjbw?autoplay=1",
+    description: `
+            <p>Xem Full Series  <a
+                                href="https://www.youtube.com/watch?v=VnO2deiIy_0&list=PL9L3yQBtrCxu_mJgwWIpslnzm9F_srXn_&index=7">SAO CHAT, CHAT SAO</a></p>
+            <ul>
+                <li>Ca sĩ Miho Chu bật mí những câu chuyện đằng sau hành trình ra mắt MV "Playlist" - MV đầu tay của mình và những bí mật chưa từng được hé lộ.”</li>
+                <li>Mini Series: Sao Chat, Chat Sao</li>
+                <li>Khách Mời: ca sĩ Chu Minh Hoàng (Miho Chu)</li>
+                <li>Sao Chat, Chat Sao là chương trình mang đến người xem những nội dung phỏng vấn, hỏi - đáp ấn tượng, sâu sắc và nhiều cảm xúc, cũng như là những câu chuyện lần đầu được tiết lộ từ những nghệ sĩ, người nổi tiếng. </li>
+          
+            </ul>
+            <p>#YeaH1 #YeaH1Channel #SaoChatChatSao #miniseries #MV_Playlist</p>
+
+              <div class="highlight-section">
+    <h4>🎬 Vai trò sản xuất</h4>
+    <ul>
+      <li><strong>Đạo diễn:</strong> Sally Nguyễn, Đặng Ngân </li>
+      <li><strong>Biên kịch:</strong> Sally Nguyễn</li>
+      <li><strong>Quay phim:</strong> Đặng Ngân</li>
+      <li><strong>Dựng phim:</strong> Sally Nguyễn</li>
+      <li><strong>Diễn viên:</strong> Chu Minh Hoàng (Miho Chu)</li>
+    </ul>
+  </div>
+
+
+        `,
+  },
+  video3: {
     title: "Chiến lược Content Marketing hiệu quả",
     author: "Đặng Thuỳ Ngân",
     views: "856 lượt xem",
     uploadDate: "5 ngày trước",
     thumbnail: "https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/embed/tTFLMUVXGmo",
+    videoUrl: "",
     description: `
             <p>Video hướng dẫn xây dựng chiến lược content marketing từ cơ bản đến nâng cao:</p>
             <ul>
@@ -48,7 +78,6 @@ const videos = {
             <p>Học cách tạo ra những nội dung có giá trị, thu hút và chuyển đổi khách hàng hiệu quả.</p>
         `,
   },
-
 }
 
 // Load video content based on stored ID
