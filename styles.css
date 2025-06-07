@@ -1525,33 +1525,73 @@ body {
   background: var(--primary-purple);
 }
 
+.magazine-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.magazine-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
 .magazine-card {
   background: white;
   border-radius: 8px;
-  padding: 0;
   width: 300px;
-  height: 400px;
+  height: 420px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s ease;
   box-shadow: 0 0 20px rgba(113, 0, 209, 0.2);
+
+}
+
+
+
+.magazine-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(113, 0, 209, 0.9), rgba(35, 18, 69, 0.95));
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
 }
 
 .magazine-link:hover .magazine-card {
   transform: rotateY(10deg) rotateX(5deg);
 }
 
-.magazine-cover {
+.magazine-spine {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  background: linear-gradient(135deg, #7100d1, #231245);
-  border-radius: 8px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(90deg, #231245, #7100d1);
+  transform: rotateY(-90deg);
+  transform-origin: right;
+  border-radius: 4px 0 0 4px;
 }
 
 .magazine-header {
@@ -1576,8 +1616,13 @@ body {
 }
 
 .magazine-preview {
-  text-align: center;
-  margin: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
 }
 
 .magazine-preview svg {
@@ -1608,10 +1653,14 @@ body {
   font-weight: 600;
   font-size: 14px;
   transition: transform 0.3s ease;
+
+  /* Add a high z-index to display above other elements */
 }
 
 .magazine-link:hover .magazine-cta {
   transform: scale(1.05);
+  position: relative;
+  z-index: 9999;
 }
 
 .magazine-spine {
