@@ -125,7 +125,7 @@ buổi họp báo ra mắt MV “Playlist”
 
    <div class="video-wrapper">
   <div class="video-container">
-    <iframe src="https://drive.google.com/file/d/1xP3ztwJUvE1woHX2HS4DITlJEdhXvXb4/preview" frameborder="0"  allow="autoplay" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1Jx-g0DmBFCh1LIoWFVqoD2c004zWemfw/preview" frameborder="0"  allow="autoplay" allowfullscreen></iframe>
   </div>
   <figcaption>Khung cảnh trong MV được tái hiện ngay trong buổi ra mắt họp báo</figcaption>
 </div>

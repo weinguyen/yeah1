@@ -131,6 +131,7 @@ function initMessageDropdown() {
     }
   }, { passive: true });
 }
+let scrollTicking = false;
 
 // Optimized scroll handler with throttling
 const handleScroll = throttle(() => {
@@ -139,17 +140,20 @@ const handleScroll = throttle(() => {
 
   const isScrolled = window.scrollY > 100;
 
-  // Use CSS custom properties for smoother transitions
-  if (isScrolled) {
-    header.style.setProperty('--header-bg', 'rgba(113, 0, 209, 0.98)');
-    header.style.setProperty('--header-shadow', '0 2px 20px rgba(113, 0, 209, 0.3)');
-    header.classList.add('scrolled');
-  } else {
-    header.style.removeProperty('--header-bg');
-    header.style.removeProperty('--header-shadow');
-    header.classList.remove('scrolled');
+  // Batch DOM updates with requestAnimationFrame
+  if (!scrollTicking) {
+    requestAnimationFrame(() => {
+      // Use CSS classes instead of inline styles
+      if (isScrolled) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+      scrollTicking = false;
+    });
+    scrollTicking = true;
   }
-}, 16); // ~60fps
+}, 100); // ~60fps
 
 // Articles carousel - heavily optimized
 function initArticlesCarousel() {
