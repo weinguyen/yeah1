@@ -215,7 +215,8 @@ body {
   padding: 56px 32px 48px;
   backdrop-filter: blur(7px);
   border: 1px solid rgba(113, 0, 209, 0.07);
-  transform: scale(0.8);
+  transform: translate3d(0, 0, 0) scale(0.8);
+  will-change: transform;
 }
 
 .hero-title {
@@ -986,8 +987,10 @@ body {
 
 .videos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .video-card {
@@ -1010,7 +1013,8 @@ body {
 
 .video-thumbnail {
   position: relative;
-  height: 300px;
+  height: 250px;
+  /* Reduced height for better fit */
   overflow: hidden;
   display: flex;
   align-items: center;

@@ -51,7 +51,7 @@ const videos = {
     <ul>
       <li><strong>Đạo diễn:</strong> Sally Nguyễn, Đặng Ngân </li>
       <li><strong>Biên kịch:</strong> Sally Nguyễn</li>
-      <li><strong>Quay phim:</strong> Đặng Ngân</li>
+      <li><strong>Quay phim:</strong> Đặng Ngân,Sally Nguyễn</li>
       <li><strong>Dựng phim:</strong> Sally Nguyễn</li>
       <li><strong>Diễn viên:</strong> Chu Minh Hoàng (Miho Chu)</li>
     </ul>
@@ -60,24 +60,34 @@ const videos = {
 
         `,
   },
+
   video3: {
-    title: "Chiến lược Content Marketing hiệu quả",
-    author: "Đặng Thuỳ Ngân",
-    views: "856 lượt xem",
-    uploadDate: "5 ngày trước",
-    thumbnail: "https://img.youtube.com/vi/tTFLMUVXGmo/maxresdefault.jpg",
-    videoUrl: "",
+    title: `"Gen Z và câu chuyện "Chạy sự kiện"`,
+    thumbnail: "https://img.youtube.com/vi/K8tw5sa2yb0/maxresdefault.jpg",
+    videoUrl: "https://drive.google.com/file/d/1IfqmY0dBz_ztAUPK-gNdI-Y17OX1m1fz/preview",
     description: `
-            <p>Video hướng dẫn xây dựng chiến lược content marketing từ cơ bản đến nâng cao:</p>
+            <p>🎬 Gen Z và câu chuyện "Chạy sự kiện" | HẬU TRƯỜNG NGHỀ NGHIỆP – ĐAM MÊ – ÁP LỰC</p>
+            <p>#GenZ #ChaySuKien #HauTruongNgheEvent #PhongSu #YouthCareer</p>
             <ul>
-                <li>Xác định đối tượng khách hàng mục tiêu</li>
-                <li>Lập kế hoạch nội dung theo lịch</li>
-                <li>Tạo nội dung đa dạng và hấp dẫn</li>
-                <li>Đo lường và tối ưu hóa hiệu quả</li>
+                <li>"Chạy sự kiện" – công việc tưởng chừng là việc làm thêm ngắn hạn, nhưng với Gen Z lại là nơi họ học cách chịu áp lực, quản lý thời gian, làm việc nhóm và bước đầu tiếp cận môi trường chuyên nghiệp.</li>
+                <li>Video phóng sự này mang đến cái nhìn gần gũi và chân thật nhất về công việc hậu trường – nơi mà sự chỉn chu, sáng tạo và tinh thần "chiến đấu" của người trẻ được thể hiện rõ nét nhất.</li>
+                <li>Hãy cùng khám phá một góc nhìn khác về giới trẻ hiện đại – không chỉ năng động mà còn bản lĩnh trên hành trình xây dựng sự nghiệp.
+🔔 ĐỪNG QUÊN ĐĂNG KÝ KÊNH để không bỏ lỡ những video mới nhất về đời sống Gen Z, nghề nghiệp, kỹ năng và đam mê tuổi trẻ!</li>
             </ul>
-            <p>Học cách tạo ra những nội dung có giá trị, thu hút và chuyển đổi khách hàng hiệu quả.</p>
+
+              <div class="highlight-section">
+    <h4>🎬 Vai trò sản xuất</h4>
+    <ul>
+      <li><strong>Đạo diễn:</strong> Sally Nguyễn</li>
+      <li><strong>Biên kịch:</strong> Đặng Ngân</li>
+      <li><strong>Quay phim:</strong> Sally Nguyễn, Đặng Ngân</li>
+      <li><strong>Dựng phim:</strong> Đặng Ngân</li>
+      <li><strong>Diễn viên:</strong> Nguyễn Thị Phương Nga, Phan Thanh Sơn, Nguyễn Khánh Huyền, Nguyễn Hà Linh, Lê Khánh Linh và các thành viên trong ban sự kiện của họp báo ra mắt MV "Playlist"</li>
+    </ul>
+  </div>
         `,
   },
+
 }
 
 // Load video content based on stored ID
