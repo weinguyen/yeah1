@@ -13,7 +13,7 @@ const articles = {
     <p>Phỏng vấn diễn viên Quang Tiến về trải nghiệm hợp tác cùng ca sĩ Miho, anh đánh giá Miho là một giọng hát tốt và đầy triển vọng. Anh đã trực tiếp lắng nghe ca khúc của Miho nhiều lần từ bản thu tới hát live ngoài đời, lần nào Miho cũng khiến anh phải tấm tắc khen ngợi vì tài năng ca hát xuất sắc.</p>
 
     <figure>
-      <img src="./asset/bao/1/1.png" alt="Minimalist lifestyle" />
+      <img src="./asset/bao/1/1.webp" alt="Minimalist lifestyle" />
       <figcaption >hình ảnh từ MV “Playlist” </figcaption>
     </figure>
 
@@ -41,7 +41,7 @@ const articles = {
     <p>Sau 5 tiếng tổng duyệt họp báo đầy căng thẳng, một số thành viên của PRism Production cùng với ca sĩ, diễn viên của MV "Playlist" đã tụ họp với nhau để giải trí bằng trò chơi "Tiến lên" với hình phạt quỳ. Sau 2 lượt chơi, ca sĩ Miho Chu đã phải "quỳ gối" khuất phục trước đạo diễn Hoàng Long.</p>
 
      <figure>
-      <img src="./asset/bao/2/3.png" alt="Ca sĩ Miho Chu quỳ gối" />
+      <img src="./asset/bao/2/3.webp" alt="Ca sĩ Miho Chu quỳ gối" />
       <figcaption>Ca sĩ Miho Chu "quỳ gối" trước đạo diễn Hoàng Long</figcaption>
     </figure>
 
@@ -49,18 +49,18 @@ const articles = {
     <p>Thế nhưng chỉ thêm vài ván so tài thì vận đen đã chuyển lên người đạo diễn. Lần này cả nhóm sản xuất lại được dịp trêu chọc nam đạo diễn trẻ tuổi.</p>
 
      <figure>
-      <img src="./asset/bao/2/2.png" alt="Đạo diễn Hoàng Long bị phạt" />
+      <img src="./asset/bao/2/2.webp" alt="Đạo diễn Hoàng Long bị phạt" />
       <figcaption>Cả nhóm vui vẻ trêu chọc đạo diễn Hoàng Long khi anh bị phạt quỳ</figcaption>
     </figure>
 
 
     <figure>
-      <img src="./asset/bao/2/6.png" alt="Tổng biên kịch Chu Đào Ngọc Anh" />
+      <img src="./asset/bao/2/6.webp" alt="Tổng biên kịch Chu Đào Ngọc Anh" />
       <figcaption>Tổng biên kịch Chu Đào Ngọc Anh vẫn cười tươi khi bị phạt</figcaption>
     </figure>
 
     <figure>
-      <img src="./asset/bao/2/7.png" alt="Ca sĩ Miho Chu đắc ý" />
+      <img src="./asset/bao/2/7.webp" alt="Ca sĩ Miho Chu đắc ý" />
       <figcaption>Ca sĩ Miho Chu "đắc ý" khoe vận đỏ với diễn viên Thanh Thanh</figcaption>
     </figure>
 
@@ -69,16 +69,16 @@ const articles = {
     <p>Ngoài thời gian cả nhóm cùng chơi đùa, rất nhiều khoảnh khắc bắt gặp nhóm nghệ sĩ - đội ngũ sản xuất chia thành cặp ngồi tâm sự gần gũi với nhau về các câu chuyện làm nghề hoặc chuyện đời sống hằng ngày.</p>
 
     <figure>
-      <img src="./asset/bao/2/1.png" alt="Diễn viên Quang Tiến plank" />
+      <img src="./asset/bao/2/1.webp" alt="Diễn viên Quang Tiến plank" />
       <figcaption>Diễn viên Quang Tiến khoe tài plank 1 phút trước đạo diễn Hoàng Long</figcaption>
     </figure>
 
      <figure>
-      <img src="./asset/bao/2/4.png" alt="Trưởng BTC Phương Nga tạo dáng" />
+      <img src="./asset/bao/2/4.webp" alt="Trưởng BTC Phương Nga tạo dáng" />
       <figcaption>Trưởng BTC Phương Nga tạo dáng nhí nhảnh cùng diễn viên chính và ca sĩ</figcaption>
     </figure>
      <figure>
-      <img src="./asset/bao/2/5.png" alt="Giám đốc nghệ thuật và đạo diễn" />
+      <img src="./asset/bao/2/5.webp" alt="Giám đốc nghệ thuật và đạo diễn" />
       <figcaption>Giám đốc nghệ thuật Đoan Trang cùng đạo diễn Hoàng Long tâm sự thân thiết</figcaption>
     </figure>
 
@@ -91,7 +91,7 @@ const articles = {
     `
   },
   article3: {
-    image: "./asset/bao/3/thumbmail.jpg",
+    image: "./asset/bao/3/thumbmail.webp",
     category: "Âm nhạc",
     title: `Màn diễn bùng nổ được tái hiện ngay trong 
 buổi họp báo ra mắt MV “Playlist”
@@ -106,17 +106,17 @@ buổi họp báo ra mắt MV “Playlist”
 
 <div class="image-row">
   <figure>
-    <img src="./asset/bao/3/1.jpg" alt="Hình ảnh từ MV Playlist" />
+    <img src="./asset/bao/3/1.webp" alt="Hình ảnh từ MV Playlist" />
   </figure>
   <figure>
-    <img src="./asset/bao/3/2.jpg" alt="Hình ảnh từ MV Playlist" />
+    <img src="./asset/bao/3/2.webp" alt="Hình ảnh từ MV Playlist" />
   </figure>
   <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
 </div>
 
     <p>Bên cạnh sự chỉn chu trong sản xuất MV, đội ngũ PRism Production cũng chuẩn bị rất kỹ lưỡng cho ngày ra mắt chính thức. Buổi họp báo được trang trí cùng chủ đề với MV, xoay quanh đĩa cassette và hạc giấy.</p>
  <figure>
-      <img src="./asset/bao/3/3.png" alt="Hình ảnh tại buổi họp báo" />
+      <img src="./asset/bao/3/3.webp" alt="Hình ảnh tại buổi họp báo" />
       <figcaption>Hình ảnh tại buổi họp báo</figcaption>
     </figure>
     <p>Sau khi trả lời những câu hỏi của phía nhà báo, bộ ba diễn viên chính xuất hiện trong MV lần này: ca sĩ Miho Chu (trong vai người con), diễn viên Trần Thị Thanh Thanh (trong vai người mẹ) và diễn viên Nguyễn Quang Tiến (trong vai người bố) đã có một màn diễn xuất trực tiếp ngay trên sân khấu của buổi họp báo. Bộ ba đã diễn lại cảnh quay nổi bật nhất cũng là cảnh quay để lại ấn tượng nhất trong kí ức của ba diễn viên: cảnh nhân vật con trình bày mong muốn được theo đuổi sự nghiệp âm nhạc gây ra mâu thuẫn lớn trong cả gia đình. Đây là cảnh quay đã lấy đi nhiều nước mắt của cả ba diễn viên khi ghi hình cho MV bởi sự căng thẳng và chân thật trong từng lời thoại cũng như sự đồng cảm của họ đối với câu chuyện của nhân vật.</p>
@@ -148,7 +148,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Ca sĩ Chu Minh Hoàng (hay còn biết tới với nghệ danh Miho Chu), đã bất ngờ ra mắt ca khúc "Playlist" sau 10 năm vắng bóng trong làng âm nhạc Việt. Đây là dấu mốc quan trọng của trong cuộc đời của chàng nghệ sĩ trẻ và đặc biệt hơn, buổi họp báo ra mắt MV "Playlist" không đơn thuần là một buổi giới thiệu sản phẩm âm nhạc mà còn là lần xuất hiện chính thức của ca sĩ Miho Chu trước công chúng kể từ năm 2015. Thế nhưng, trong buổi họp báo, phía gia đình nghệ sĩ Miho Chu, bao gồm cả bố mẹ của anh - những giảng viên kì cựu tại Học viện Âm nhạc Việt Nam hay ông bà ngoại (NSND Tiến Dũng - ca sĩ Phương Thanh) và hai người bác - ca sĩ Hương Tràm, ca sĩ Tiến Mạnh đều không xuất hiện.</p>
 
       <figure>
-        <img src="./asset/bao/4/1.png" alt="Ca sĩ Miho Chu lo lắng trong buổi họp báo" />
+        <img src="./asset/bao/4/1.webp" alt="Ca sĩ Miho Chu lo lắng trong buổi họp báo" />
         <figcaption>Ca sĩ Miho Chu lo lắng trong buổi họp báo</figcaption>
       </figure>
 
@@ -158,10 +158,10 @@ buổi họp báo ra mắt MV “Playlist”
 
     
         <figure class = "a">
-          <img src="./asset/bao/4/2.png" alt="Hình ảnh của ca sĩ Miho Chu trong buổi họp báo" />
+          <img src="./asset/bao/4/2.webp" alt="Hình ảnh của ca sĩ Miho Chu trong buổi họp báo" />
         </figure>
         <figure class = "b">
-          <img src="./asset/bao/4/3.png" alt="Hình ảnh của ca sĩ Miho Chu trong buổi họp báo" />
+          <img src="./asset/bao/4/3.webp" alt="Hình ảnh của ca sĩ Miho Chu trong buổi họp báo" />
            <figcaption>Một số hình ảnh khác của ca sĩ Miho Chu trong buổi họp báo</figcaption>
         </figure>
        
@@ -186,7 +186,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Chúng tôi đã có cuộc trò chuyện cùng Long về hành trình làm MV đầu tiên, quan điểm thẩm mỹ cá nhân và cách một đạo diễn trẻ đang đi tìm tiếng nói riêng trong thế giới hình ảnh.</p>
 
       <figure>
-        <img src="./asset/bao/5/1.jpg" alt="Đạo diễn Long Đỗ trong quá trình quay MV Playlist" />
+        <img src="./asset/bao/5/1.webp" alt="Đạo diễn Long Đỗ trong quá trình quay MV Playlist" />
         <figcaption>Đạo diễn Long Đỗ trong quá trình quay MV "Playlist"</figcaption>
       </figure>
 
@@ -200,7 +200,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p><strong>Đạo diễn Long Đỗ</strong>: Mình thấy để đặt vào bàn cân với những sản phẩm khác thì cái này (MV "Playlist") có đầu ra toàn diện nhất, nhưng mà tất nhiên là mình vẫn chưa ưng rồi. Mình luôn muốn mình phát triển. Tác phẩm này dù đã hoàn thiện nhưng sau này mình xem lại thì sẽ có những hạt sạn cần khắc phục, kể cả bây giờ mình xem lại cũng đã thấy sạn. Thế nên để nói chung thì đây là sản phẩm hoàn chỉnh nhất của mình từ trước đến giờ, còn sau này thì có thể thay đổi.</p>
 
       <figure>
-        <img src="./asset/bao/5/2.jpg" alt="Đạo diễn Long Đỗ trong quá trình quay MV Playlist" />
+        <img src="./asset/bao/5/2.webp" alt="Đạo diễn Long Đỗ trong quá trình quay MV Playlist" />
         <figcaption>Đạo diễn Long Đỗ trong quá trình quay MV "Playlist"</figcaption>
       </figure>
 
@@ -227,7 +227,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Về mặt hình ảnh thì mình xem rất nhiều nên bị ảnh hưởng bởi rất nhiều tác phẩm. Sẽ có một cái gu mà mình thường sẽ hướng tới, nhưng mình sẽ không thể nói rõ được vì nó ở trong tiềm thức của mình. Chỉ là mình sẽ tự nhiên bị thu hút và hướng tới một kiểu hình ảnh nhất định.</p>
 
       <figure class = "abc">
-        <img src="./asset/bao/5/3.jpg" alt="Hình ảnh từ góc máy quay của đạo diễn Long Đỗ cho MV Playlist" />
+        <img src="./asset/bao/5/3.webp" alt="Hình ảnh từ góc máy quay của đạo diễn Long Đỗ cho MV Playlist" />
         <figcaption > Hình ảnh từ góc máy quay của đạo diễn Long Đỗ cho MV "Playlist"</figcaption>
       </figure>
 
@@ -274,7 +274,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p ><strong>"Playlist" – Một hành trình ký ức kể bằng âm nhạc và hình ảnh</p>
 
       <figure >
-        <img src="./asset/bao/6/2.png" alt="Hình ảnh từ MV Playlist" />
+        <img src="./asset/bao/6/2.webp" alt="Hình ảnh từ MV Playlist" />
         <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
       </figure>
 
@@ -283,7 +283,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Về mặt hình ảnh, Long Đỗ lựa chọn tone màu bụi, ánh sáng ngả vàng, máy quay tay và các cú lia máy chậm – tạo cảm giác thời gian đang trôi ngay trong khung hình. Theo đạo diễn, mỗi chi tiết trong MV đều có lý do tồn tại, không phải vì "thấy đẹp thì cho vào". Chính tư duy này khiến sản phẩm trở nên mạch lạc và đồng nhất giữa âm nhạc và hình ảnh.</p>
 
       <figure>
-        <img src="./asset/bao/6/1.png" alt="Hình ảnh từ MV Playlist" />
+        <img src="./asset/bao/6/1.webp" alt="Hình ảnh từ MV Playlist" />
         <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
       </figure>
 
@@ -306,7 +306,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Khi diễn viên Trần Thị Thanh Thanh tham gia đóng vai người mẹ trong MV "Playlist" của ca sĩ Chu Minh Hoàng (Miho Chu), cô đã tái hiện lại hành trình một người mẹ đi từ việc phản đối con cái theo đuổi đam mê âm nhạc tới sự thấu hiểu và ủng hộ con. Chính diễn viên Thanh Thanh chia sẻ, câu chuyện này có phần nào giống với câu chuyện thật của gia đình cô và chính cô cũng từng trải qua nhiều trăn trở khi đứng trước những cột mốc quan trọng của hai người con gái nhỏ.</p>
 
       <figure>
-        <img src="./asset/bao/7/1.jpg" alt="Diễn viên Thanh Thanh trong MV Playlist" />
+        <img src="./asset/bao/7/1.webp" alt="Diễn viên Thanh Thanh trong MV Playlist" />
         <figcaption>Diễn viên Thanh Thanh trong MV "Playlist"</figcaption>
       </figure>
 
@@ -315,7 +315,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Diễn viên cũng chia sẻ thêm, ở vai trò của người mẹ, cô hiểu rằng tình yêu của người mẹ không đơn thuần là sự quan tâm, lo lắng hay bắt ép con phải theo đuổi thứ mẹ cho là đúng nhất, tốt nhất. Diễn viên Thanh Thanh cho rằng chỉ cần mẹ nhìn được sự đam mê cháy bỏng của con thì không một người mẹ nào không hết mình ủng hộ con cái.</p>
 
       <figure>
-        <img src="./asset/bao/7/2.jpg" alt="Diễn viên Thanh Thanh chia sẻ câu chuyện làm mẹ" />
+        <img src="./asset/bao/7/2.webp" alt="Diễn viên Thanh Thanh chia sẻ câu chuyện làm mẹ" />
         <figcaption>Diễn viên Thanh Thanh chia sẻ câu chuyện làm mẹ</figcaption>
       </figure>
 
@@ -335,7 +335,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p class="lead">MV "Playlist" là lời kể nhẹ nhàng của ca sĩ Miho Chu về tình yêu nghệ thuật và sự thấu hiểu trong gia đình, những điều mà ai cũng có thể bắt gặp trong hành trình theo đuổi ước mơ.</p>
 
       <figure>
-        <img src="./asset/bao/8/1.png" alt="Hình ảnh từ MV Playlist" />
+        <img src="./asset/bao/8/1.webp" alt="Hình ảnh từ MV Playlist" />
         <figcaption>Hình ảnh từ MV "Playlist"</figcaption>
       </figure>
 
@@ -344,7 +344,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Ca sĩ Miho Chu hóa thân thành người con trong một gia đình, nơi người cha là người theo đuổi âm nhạc và đã thầm lặng nuôi dưỡng đam mê ấy cho con mình. Tuổi thơ của cậu bé tràn ngập những giai điệu từ tiếng đàn của bố, được truyền cảm hứng bởi ước mơ nghệ thuật chưa trọn vẹn của người cha. Tuy nhiên, ước mơ ấy lại gặp phải sự phản đối từ người mẹ, người lo lắng về một tương lai bấp bênh và đầy thử thách. Cuối MV, cậu bé đã mạnh mẽ đứng trên sân khấu, viết tiếp câu chuyện âm nhạc của riêng mình, đồng thời nối dài hành trình đam mê mà bố đã bắt đầu dưới ánh mắt dõi theo và sự ủng hộ đầy yêu thương của mẹ.</p>
 
       <figure>
-        <img src="./asset/bao/8/2.png" alt="Khung cảnh gia đình trong MV Playlist" />
+        <img src="./asset/bao/8/2.webp" alt="Khung cảnh gia đình trong MV Playlist" />
         <figcaption>Khung cảnh gia đình trong MV "Playlist"</figcaption>
       </figure>
 
@@ -354,11 +354,11 @@ buổi họp báo ra mắt MV “Playlist”
 
     
         <figure >
-          <img src="./asset/bao/8/3.png" alt="Chi tiết chim hạc giấy gắn với giấc mơ âm nhạc của cậu bé" />
+          <img src="./asset/bao/8/3.webp" alt="Chi tiết chim hạc giấy gắn với giấc mơ âm nhạc của cậu bé" />
             <figcaption>Chi tiết chim hạc giấy gắn với giấc mơ âm nhạc của cậu bé</figcaption>
         </figure>
         <figure >
-          <img src="./asset/bao/8/4.png" alt="Chim hạc giấy gắn liền với những ngày tháng tuổi thơ bên âm nhạc của bố" />
+          <img src="./asset/bao/8/4.webp" alt="Chim hạc giấy gắn liền với những ngày tháng tuổi thơ bên âm nhạc của bố" />
             <figcaption>Chim hạc giấy - biểu tượng xuyên suốt của tuổi thơ và ước mơ trong MV</figcaption>
         </figure>
       
@@ -369,7 +369,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Không chỉ là một sản phẩm âm nhạc, Playlist còn là cách ca sĩ Miho Chu kể lại một lát cắt cuộc đời mình – nơi tuổi thơ gắn liền với âm nhạc, những ước mơ được ươm mầm trong tình yêu thương gia đình, và cả những mâu thuẫn, giằng xé nội tâm trên hành trình theo đuổi đam mê. Ca khúc mang màu sắc indie-pop hoài niệm, kết hợp giữa giai điệu nhẹ nhàng và không khí cảm xúc, như một hồi ức dịu dàng về tuổi thơ và ước mơ từng được chắp cánh trong vòng tay người thân.</p>
 
       <figure>
-        <img src="./asset/bao/8/5.png" alt="Phân cảnh tâm lý của cậu bé trong MV Playlist" />
+        <img src="./asset/bao/8/5.webp" alt="Phân cảnh tâm lý của cậu bé trong MV Playlist" />
         <figcaption>Phân cảnh tâm lý của cậu bé trong MV "Playlist"</figcaption>
       </figure>
 
@@ -392,7 +392,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p class="lead">Ca sĩ Miho Chu ra mắt MV đầu tay "Playlist" đánh dấu sự trở lại sau thời gian dài rời khỏi ánh đèn sân khấu, nhưng ít ai biết đằng sau đó là cả một hành trình nỗ lực tự thân, khi nam ca sĩ trẻ gần như tự mình xoay xở để hoàn thiện từng khung hình bằng tất cả tình yêu với âm nhạc.</p>
 
       <figure>
-        <img src="./asset/bao/9/1.jpg" alt="Ca sĩ Miho Chu trong quá trình sản xuất MV" />
+        <img src="./asset/bao/9/1.webp" alt="Ca sĩ Miho Chu trong quá trình sản xuất MV" />
        
       </figure>
 
@@ -401,7 +401,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Đạo diễn Long Đỗ – người đứng sau hình ảnh của MV – cũng là một người bạn đồng trang lứa, mới 19 tuổi, đầy triển vọng và nhiệt huyết. Cả hai đã cùng nhau đồng hành trong quá trình làm việc, chia sẻ không chỉ góc nhìn nghệ thuật mà cả áp lực của những nghệ sĩ trẻ đang tìm chỗ đứng đầu tiên. Đạo diễn Long Đỗ cũng đã giúp ca sĩ Miho Chu kết nối với những diễn viên, ekip thân thiết sẵn sàng tham gia vào sản phẩm của Miho như diễn viên Quang Tiến (vai người bố), giám đốc nghệ thuật Nguyễn Ngọc Đoan Trang,...</p>
 
       <figure>
-        <img src="./asset/bao/9/2.jpg" alt="Ca sĩ Miho Chu chụp ảnh thân thiết cùng đội ngũ sản xuất MV" />
+        <img src="./asset/bao/9/2.webp" alt="Ca sĩ Miho Chu chụp ảnh thân thiết cùng đội ngũ sản xuất MV" />
         <figcaption>Ca sĩ Miho Chu chụp ảnh thân thiết cùng đội ngũ sản xuất MV "Playlist"</figcaption>
       </figure>
 
@@ -410,7 +410,7 @@ buổi họp báo ra mắt MV “Playlist”
       <p>Suốt quá trình quay, ca sĩ Miho Chu còn nhận được sự đồng hành bền bỉ từ người bạn thân từ thuở nhỏ – người luôn theo sát từng chi tiết nhỏ nhất để giúp cậu hoàn thành mọi việc. Từ diễn viên phụ đến những vật dụng trong MV đều được vận dụng từ người quen, bạn bè, để từng cảnh quay không chỉ tiết kiệm mà còn chứa đựng nhiều yêu thương và sự nâng đỡ thầm lặng.</p>
 
       <figure>
-        <img src="./asset/bao/9/3.jpg" alt="Ca sĩ Miho Chu hỗ trợ đội ngũ sản xuất" />
+        <img src="./asset/bao/9/3.webp" alt="Ca sĩ Miho Chu hỗ trợ đội ngũ sản xuất" />
         <figcaption>Ca sĩ Miho Chu hỗ trợ đội ngũ sản xuất trong quá trình quay MV</figcaption>
       </figure>
 
@@ -418,11 +418,11 @@ buổi họp báo ra mắt MV “Playlist”
 
      
         <figure>
-          <img src="./asset/bao/9/4.jpg" alt="Miho Chu tại buổi tổng duyệt họp báo" />
+          <img src="./asset/bao/9/4.webp" alt="Miho Chu tại buổi tổng duyệt họp báo" />
           <figcaption>Miho Chu tại buổi tổng duyệt họp báo ra mắt MV "Playlist"</figcaption>
         </figure>
         <figure>
-          <img src="./asset/bao/9/5.jpg" alt="Miho Chu tham gia sắp xếp bàn ghế" />
+          <img src="./asset/bao/9/5.webp" alt="Miho Chu tham gia sắp xếp bàn ghế" />
           <figcaption>Miho Chu tham gia sắp xếp bàn ghế cho buổi họp báo</figcaption>
         </figure>
       
